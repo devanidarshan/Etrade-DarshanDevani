@@ -36,13 +36,14 @@ export const Videopost = () => {
         <Bgimg/>
       </div>
 
-      <div className="Standard-section">
-        <div className="Image flex justify-center mt-20">
+      <div className="Videopost-section mx-auto container -z-10">
+        <div className="Image flex justify-center mt-20 relative mx-32 mb-10 after:absolute after:content-[''] after:w-[100%] after:-h-[100%] after:bg-black after:top-0 after:bottom-0 after:left-0 after:right-0 after:rounded-md after:opacity-[0.2] after:z-10">
           <img className="rounded-md" src={video}></img>
+          <a href="https://www.youtube.com/watch?v=Tl4bQBfOtbg" target="_blank" className="absolute top-[50%] -translate-x-2/4 -translate-y-2/4 left-[50%] mx-auto z-20 rounded-full bg-black hover:opacity-80"><i className="fa-solid fa-play w-40 h-40 text-4xl z-30 text-white flex justify-center items-center opacity-100"></i></a>
         </div>
 
         <div className="Main-section flex">
-          <div className="Left-section ml-60 mt-12">
+          <div className="Left-section ml-56 mt-12">
             <div className="mt-8 border-b-2 border-gray-100">
               <div className="text-4xl font-bold text-gray-800 leading-snug ">
                 How to generate blog ideas are great for <br />

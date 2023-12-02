@@ -34,7 +34,7 @@ export const Bloggrid = () => {
       <Bgimg/>
     </div>
 
-      <div className="Blog-Grid-Section">
+      <div className="Blog-Grid-Section mx-auto container">
       <div className="first-part flex bg-[#f8f8f8] justify-between p-12">
           <div className="mx-16">
             <p className="text-gray-400 font-semibold">

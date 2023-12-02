@@ -35,7 +35,7 @@ export const Quotepost = () => {
         <Bgimg/>
       </div>
 
-      <div className="Quote-section">
+      <div className="Quote-section mx-auto container">
         <div className="Quote-section bg-[#f9f3f0] h-[280px] w-[1285px] mt-20 rounded-lg ml-32 border-l-4 border-red-200 p-14">
           <a
             href="#"
@@ -65,7 +65,7 @@ export const Quotepost = () => {
         </div>
 
         <div className="Main-section flex">
-          <div className="Left-section ml-60 mt-10">
+          <div className="Left-section ml-56 mt-10">
             <div className="Content-section text-gray-500 mt-10">
               <p className="leading-7">
                 Habitasse per feugiat aliquam luctus accumsan curae, suspendisse

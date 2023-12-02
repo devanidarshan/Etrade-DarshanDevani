@@ -2,6 +2,7 @@ import React from "react";
 import { Topnavbar } from "../Components/Topnavbar";
 import { Navbar } from "../Components/Navbar";
 import audio from "../assets/audiopost/audioimg.jpg";
+import mp3 from "../assets/audiopost/audio.mp3"
 import image1 from "../assets/Bloglist/asset 9.png";
 import image2 from "../assets/Bloglist/asset 10.png";
 import image3 from "../assets/Bloglist/asset 11.png";
@@ -36,14 +37,14 @@ export const Audiopost = () => {
         <Bgimg/>
       </div>
 
-      <div className="Standard-section">
+      <div className="Audiopost-section mx-auto container">
         <div className="Image flex justify-center mt-20">
           <img className="rounded-md" src={audio}></img>
         </div>
 
         <div className="Main-section flex">
-          <div className="Left-section ml-60 mt-12">
-            <div className="mt-8 border-b-2 border-gray-100">
+          <div className="Left-section ml-56 mt-12">
+            <div className="mt-8">
               <div className="text-4xl font-bold text-gray-800 leading-snug ">
                 How to generate blog ideas are great for <br />
                 businesses that sell both B2B and D2C.
@@ -60,10 +61,16 @@ export const Audiopost = () => {
                     Theresa Underwood
                   </a>
                   <ul className="flex text-gray-500 font-md text-sm mt-1 mb-14">
-                    <li className="">Mar 20, 2022 |</li>
+                    <li className="">Mar 27, 2022 |</li>
                     <li className="ml-2">300k views</li>
                   </ul>
                 </div>
+              </div>
+
+              <div className="Audio-section border-t-2 border-gray-100 pt-12 ">
+                <audio controls className="w-[730px]">
+                  <source src={mp3}></source>
+                </audio>
               </div>
             </div>
 

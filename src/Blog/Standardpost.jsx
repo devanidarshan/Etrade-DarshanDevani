@@ -36,13 +36,13 @@ export const Standardpost = () => {
         <Bgimg/>
       </div>
 
-      <div className="Standard-section">
+      <div className="Standard-section mx-auto container">
         <div className="Image flex justify-center mt-20">
           <img className="rounded-md" src={image}></img>
         </div>
 
         <div className="Main-section flex">
-          <div className="Left-section ml-60 mt-12">
+          <div className="Left-section ml-56 mt-12">
             <div className="mt-8 border-b-2 border-gray-100">
               <div className="text-4xl font-bold text-gray-800 leading-snug ">
                 How to generate blog ideas are great for <br />
@@ -631,7 +631,7 @@ export const Standardpost = () => {
           </div>
         </div>
 
-        <div className="Hot-News-Section mt-20 ml-32">
+        <div className="Hot-News-Section mt-20 mx-32">
           <div className="Main-section">
             <div className="News flex">
               <div className="">
@@ -639,13 +639,13 @@ export const Standardpost = () => {
               </div>
               <p className="text-[#8c71db] ml-2 font-semibold mt-1">Hot News</p>
             </div>
-            <div className="flex">
+            <div className="flex justify-between">
               <div className="">
                 <h1 className="text-3xl font-semibold text-gray-800 mt-3">
                   Related Blog
                 </h1>
               </div>
-              <div className=" flex ml-[1000px]">
+              <div className=" flex">
                 <button className="">
                   <i class="fa-solid fa-arrow-left border p-4 text-gray-400 bg-gray-50 rounded-md"></i>
                 </button>

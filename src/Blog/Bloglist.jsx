@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/Bloglist/asset 36.png";
+import video from "../assets/Bloglist/asset 6.png";
 import alexa from "../assets/Bloglist/asset 2.png";
 import rimage1 from "../assets/Bloglist/asset 3.png";
 import uda from "../assets/Bloglist/asset 4.png";
@@ -15,7 +16,7 @@ import image6 from "../assets/Bloglist/asset 14.jpeg";
 import { Footer } from "../Home/Footer";
 import { Topnavbar } from "../Components/Topnavbar";
 import { Navbar } from "../Components/Navbar";
-import {Bgimg} from "../Components/Bgimg"
+import { Bgimg } from "../Components/Bgimg";
 
 export const Bloglist = () => {
   return (
@@ -29,63 +30,62 @@ export const Bloglist = () => {
       </div>
 
       <div>
-        <Bgimg/>
+        <Bgimg />
       </div>
 
-      <div className=" Blog-list-section">
+      <div className=" Blog-list-section mx-auto container">
         <div className="first-part flex bg-[#f8f8f8] justify-between p-12">
-          <div className="mx-16">
+          <div className="mx-20">
             <p className="text-gray-400 font-semibold">
               Home | <span className="text-blue-500">Blogs</span>
             </p>
             <h1 className="text-4xl font-bold text-gray-800 mt-5">Blog List</h1>
           </div>
-          <div className="mx-16">
+          <div className="mx-20">
             <img className="" src={alexa}></img>
           </div>
         </div>
 
         <div className="main-section flex">
           <div className="Left-section">
-              <div className="Dubai-section bg-[#f9f3f0] h-[400px] w-[850px] mt-20 rounded-lg ml-32 border-l-4 border-red-200 p-14">
-                <a
-                  href="#"
-                  className="text-2xl font-semibold text-gray-800 hover:text-blue-600 duration-300"
-                >
-                  Dubai’s Offers its Take Nike SB Dunk.
-                </a>
-                <div className="main-section flex mt-8 ">
-                  <div className="image">
-                    <img className="h-12 w-12" src={rimage1}></img>
-                  </div>
-                  <div className="image-content ml-4">
-                    <a
-                      href=""
-                      className="font-semibold hover:text-blue-600 duration-300"
-                    >
-                      Ralph Edwards
-                    </a>
-                    <ul className="flex text-gray-500 text-sm mt-1">
-                      <li className="">Mar 27, 2022 |</li>
-                      <li className="ml-2">9 min to read</li>
-                    </ul>
-                  </div>
+            <div className="Dubai-section bg-[#f9f3f0] h-[400px] w-[850px] mt-20 rounded-lg ml-32 border-l-4 border-red-200 p-14">
+              <a
+                href="#"
+                className="text-2xl font-semibold text-gray-800 hover:text-blue-600 duration-300"
+              >
+                Dubai’s Offers its Take Nike SB Dunk.
+              </a>
+              <div className="main-section flex mt-8">
+                <div className="image">
+                  <img className="h-12 w-12" src={rimage1}></img>
                 </div>
-                <p className="text-gray-500 mt-6 leading-7">
-                  Donec metus lorem, vulputate at sapien sit amet, auctor
-                  iaculis lorem. In vel hendrerit nisi. <br />
-                  Vestibulum eget risus velit. Aliquam tristique libero at dui
-                  sodales, et placerat orci lobortis. <br />
-                  Maecenas ipsum neque, elementum id dignissim et, imperdiet
-                  vitae mauris.
-                </p>
-                <a href="#" className="">
-                  <button className="border rounded-lg bg-blue-500 text-white font-semibold px-10 py-4 mt-7 hover:scale-110 duration-300">
-                    Read More
-                  </button>
-                </a>
+                <div className="image-content ml-4">
+                  <a
+                    href=""
+                    className="font-semibold hover:text-blue-600 duration-300"
+                  >
+                    Ralph Edwards
+                  </a>
+                  <ul className="flex text-gray-500 text-sm mt-1">
+                    <li className="">Mar 27, 2022 |</li>
+                    <li className="ml-2">9 min to read</li>
+                  </ul>
+                </div>
               </div>
-            
+              <p className="text-gray-500 mt-6 leading-7">
+                Donec metus lorem, vulputate at sapien sit amet, auctor iaculis
+                lorem. In vel hendrerit nisi. <br />
+                Vestibulum eget risus velit. Aliquam tristique libero at dui
+                sodales, et placerat orci lobortis. <br />
+                Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae
+                mauris.
+              </p>
+              <a href="#" className="">
+                <button className="border rounded-lg bg-blue-500 text-white font-semibold px-10 py-4 mt-7 hover:scale-110 duration-300">
+                  Read More
+                </button>
+              </a>
+            </div>
 
             <div className="image ml-32 border-t-2 mt-20 border-gray-100">
               <img className="rounded-lg mt-20" src={uda}></img>
@@ -159,7 +159,18 @@ export const Bloglist = () => {
               </div>
             </div>
 
-            <div className="Video-section"></div>
+            <div className="Video-section">
+              <div className="Image flex justify-center mt-20 relative ml-32 mb-10 after:absolute after:content-[''] after:w-[100%] after:-h-[100%] after:bg-black after:top-0 after:bottom-0 after:left-0 after:right-0 after:rounded-md after:opacity-[0.2] after:z-10">
+                <img className="rounded-md" src={video}></img>
+                <a
+                  href="https://www.youtube.com/watch?v=OtyNyNL-Vyc"
+                  target="_blank"
+                  className="absolute top-[50%] -translate-x-2/4 -translate-y-2/4 left-[50%] mx-auto z-20 rounded-full bg-black hover:opacity-80"
+                >
+                  <i className="fa-solid fa-play w-40 h-40 text-4xl z-30 text-white flex justify-center items-center opacity-100"></i>
+                </a>
+              </div>
+            </div>
 
             <div className="rounded-lg ml-32 mt-8">
               <a
@@ -202,10 +213,24 @@ export const Bloglist = () => {
               </a>
             </div>
 
-            <div className="image-section ml-32 border-t-2 border-gray-100">
+            <div className="image-section ml-32 border-t-2 border-gray-100 relative group">
               <a href="#" className="">
                 <img className="rounded-lg mt-16" src={shoes}></img>
               </a>
+              <div className="absolute top-[58%] w-[100%]">
+                <a
+                  href="#"
+                  className="left-btn absolute left-10 group-hover:left-2 duration-300 hover:scale-110"
+                >
+                  <i class="ri-arrow-left-line  bg-[#F6F7FB] p-4 rounded-md text-gray-400"></i>
+                </a>
+                <a
+                  href="#"
+                  className="right-btn absolute right-10 group-hover:right-2 duration-300 hover:scale-110"
+                >
+                  <i class="ri-arrow-right-line bg-[#F6F7FB] p-4 rounded-md text-gray-400"></i>
+                </a>
+              </div>
             </div>
 
             <div className="rounded-lg ml-32 mt-8">
@@ -298,7 +323,7 @@ export const Bloglist = () => {
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       {" "}
-                      <img 
+                      <img
                         className="rounded-lg h-20 w-32 hover:scale-110 duration-300"
                         src={image1}
                       ></img>
@@ -400,9 +425,7 @@ export const Bloglist = () => {
                       <li className="text-lg text-gray-300">
                         <del>$30</del>
                       </li>
-                      <li className="ml-2 font-semibold text-lg">
-                        $20
-                      </li>
+                      <li className="ml-2 font-semibold text-lg">$20</li>
                     </ul>
                   </div>
                 </div>
@@ -429,9 +452,7 @@ export const Bloglist = () => {
                       <li className="text-lg text-gray-300">
                         <del>$200</del>
                       </li>
-                      <li className="ml-2 font-semibold text-lg">
-                        $150
-                      </li>
+                      <li className="ml-2 font-semibold text-lg">$150</li>
                     </ul>
                   </div>
                 </div>
@@ -458,9 +479,7 @@ export const Bloglist = () => {
                       <li className="text-lg text-gray-300">
                         <del>300</del>$
                       </li>
-                      <li className="ml-2 font-semibold text-lg">
-                        $200
-                      </li>
+                      <li className="ml-2 font-semibold text-lg">$200</li>
                     </ul>
                   </div>
                 </div>

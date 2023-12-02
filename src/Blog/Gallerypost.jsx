@@ -36,13 +36,13 @@ export const Gallerypost = () => {
         <Bgimg/>
       </div>
 
-      <div className="Standard-section">
+      <div className="Standard-section mx-auto container">
         <div className="Image flex justify-center mt-20">
           <img className="rounded-md" src={gallery}></img>
         </div>
 
         <div className="Main-section flex">
-          <div className="Left-section ml-60 mt-12">
+          <div className="Left-section ml-56 mt-12">
             <div className="mt-8 border-b-2 border-gray-100">
               <div className="text-4xl font-bold text-gray-800 leading-snug ">
                 How to generate blog ideas are great for <br />
