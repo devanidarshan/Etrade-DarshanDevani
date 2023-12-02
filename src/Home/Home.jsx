@@ -23,13 +23,14 @@ import policyy from "../assets/Homepage/asset 43.png";
 import quality from "../assets/Homepage/asset 44.png";
 import sound from "../assets/Homepage/asset 45.png";
 import glass from "../assets/Homepage/asset 46.png";
+import { Footer } from "../Home/Footer";
 
 export const Home = () => {
   return (
     <>
       {/* Header-section */}
 
-      <div className="Main-Header bg-[#f9f3f0] h-[800px] px-24">
+      <div className="Main-Header bg-[#f9f3f0] h-[800px] px-24 mx-auto container">
         <div className="Header  flex justify-between pb-4">
           <div className="Left-section ">
             <div className="Main-left-section pt-2 ">
@@ -96,7 +97,7 @@ export const Home = () => {
           <div className="NavBar flex ">
             <div className="group flex">
               <button
-                className=" relative font-bold mx-7 hover:border-b-[3px]  border-black "
+                className=" relative font-bold mx-7  underline decoration-[2px] underline-offset-4"
                 type="button"
               >
                 Home<i class="fa-solid fa-angle-down text-gray-400 pl-1 "></i>
@@ -365,7 +366,7 @@ export const Home = () => {
 
       {/* Category-section */}
 
-      <div className="Category-section px-32 ">
+      <div className="Category-section px-32 mx-auto container">
         <div className=" my-[70px]">
           <div className="flex mb-3">
             <i className="ri-price-tag-3-line h-6 w-6 text-base border bg-[#FF497C] text-white rounded-full flex items-center justify-center"></i>
@@ -454,7 +455,7 @@ export const Home = () => {
 
       {/* Feedback-section */}
 
-      <div className="Feed-back-section">
+      <div className="Feed-back-section mx-auto container">
         <div className="bg-[#F9F3F0]  px-32 py-20">
           <div className="flex justify-between ">
             <div className="mb-10">
@@ -538,6 +539,375 @@ export const Home = () => {
         </div>
       </div>
 
+      {/* Trade - Strore */}
+
+      <div className="Trade-Store container mx-auto px-32">
+        <div className="border-b pb-20">
+          <div className="mt-14">
+            <div className="mb-12 text-center">
+              <p className="text-[#8C71DB] font-medium mb-2">
+                <i class="ri-shining-2-fill bg-[#8C71DB] p-1 text-white rounded-full text-center mr-3"></i>
+                Most Sold
+              </p>
+              <h1 className="font-bold text-4xl text-[#292930] ">
+                Most Sold in eTrade Store
+              </h1>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 gap-8">
+            <div className="flex justify-between items-center outline outline-1 outline-gray-200 rounded-md p-7 group hover:shadow-lg hover:shadow-zinc-100 hover:duration-500 hover:outline-none duration-[0.3s]">
+              <div className="flex items-center ">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md group-hover:scale-110 duration-500"
+                    src="./src/assets/home/asset 32.png"
+                    alt=""
+                  />
+                </div>
+                <div className="pl-8 leading-7">
+                  <div className="flex items-center">
+                    <span className="text-[#FFA800]">
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-line"></i>
+                    </span>
+                    <div>
+                      <h1 className="text-xs font-bold ml-2">
+                        100+{" "}
+                        <span className="text-gray-600 text-xs font-semibold">
+                          Reviews
+                        </span>{" "}
+                      </h1>
+                    </div>
+                  </div>
+                  <h1 className="text-gray-500 font-semibold mb-2 hover:text-[#3577F0] duration-700 cursor-pointer">
+                    Media Remote
+                  </h1>
+                  <p className="text-xl font-bold">
+                    $29.99{" "}
+                    <span className="text-gray-300 ml-2">
+                      <del>$49.99</del>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div>
+                <a href="#" className="block mb-6">
+                  <i class="ri-shopping-cart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+                <a href="#">
+                  <i class="ri-heart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center outline outline-1 outline-gray-200 rounded-md p-7 group hover:shadow-lg hover:shadow-zinc-100 hover:duration-500 hover:outline-none duration-[0.3s]">
+              <div className="flex items-center ">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md group-hover:scale-110 duration-500"
+                    src="./src/assets/home/asset 33.png"
+                    alt=""
+                  />
+                </div>
+                <div className="pl-8 leading-7">
+                  <div className="flex items-center">
+                    <span className="text-[#FFA800]">
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-line"></i>
+                    </span>
+                    <div>
+                      <h1 className="text-xs font-bold ml-2">
+                        50+{" "}
+                        <span className="text-gray-600 text-xs font-semibold">
+                          Reviews
+                        </span>{" "}
+                      </h1>
+                    </div>
+                  </div>
+                  <h1 className="text-gray-500 font-semibold mb-2 hover:text-[#3577F0] duration-700 cursor-pointer">
+                    HD Camera
+                  </h1>
+                  <p className="text-xl font-bold">$49.99 </p>
+                </div>
+              </div>
+              <div>
+                <a href="#" className="block mb-6">
+                  <i class="ri-shopping-cart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+                <a href="#">
+                  <i class="ri-heart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center outline outline-1 outline-gray-200 rounded-md p-7 group hover:shadow-lg hover:shadow-zinc-100 hover:duration-500 hover:outline-none duration-[0.3s]">
+              <div className="flex items-center ">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md group-hover:scale-110 duration-500"
+                    src="./src/assets/home/asset 34.png"
+                    alt=""
+                  />
+                </div>
+                <div className="pl-8 leading-7">
+                  <div className="flex items-center">
+                    <span className="text-[#FFA800]">
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-line"></i>
+                    </span>
+                    <div>
+                      <h1 className="text-xs font-bold ml-2">
+                        120+{" "}
+                        <span className="text-gray-600 text-xs font-semibold">
+                          Reviews
+                        </span>{" "}
+                      </h1>
+                    </div>
+                  </div>
+                  <h1 className="text-gray-500 font-semibold mb-2 hover:text-[#3577F0] duration-700 cursor-pointer">
+                    Gaming Controller
+                  </h1>
+                  <p className="text-xl font-bold">$50.00 </p>
+                </div>
+              </div>
+              <div>
+                <a href="#" className="block mb-6">
+                  <i class="ri-shopping-cart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+                <a href="#">
+                  <i class="ri-heart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center outline outline-1 outline-gray-200 rounded-md p-7 group hover:shadow-lg hover:shadow-zinc-100 hover:duration-500 hover:outline-none duration-[0.3s]">
+              <div className="flex items-center ">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md group-hover:scale-110 duration-500"
+                    src="./src/assets/home/asset 35.png"
+                    alt=""
+                  />
+                </div>
+                <div className="pl-8 leading-7">
+                  <div className="flex items-center">
+                    <span className="text-[#FFA800]">
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-line"></i>
+                    </span>
+                    <div>
+                      <h1 className="text-xs font-bold ml-2">
+                        30+{" "}
+                        <span className="text-gray-600 text-xs font-semibold">
+                          Reviews
+                        </span>{" "}
+                      </h1>
+                    </div>
+                  </div>
+                  <h1 className="text-gray-500 font-semibold mb-2 hover:text-[#3577F0] duration-700 cursor-pointer">
+                    Wall Mountr
+                  </h1>
+                  <p className="text-xl font-bold">$19.00 </p>
+                </div>
+              </div>
+              <div>
+                <a href="#" className="block mb-6">
+                  <i class="ri-shopping-cart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+                <a href="#">
+                  <i class="ri-heart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center outline outline-1 outline-gray-200 rounded-md p-7 group hover:shadow-lg hover:shadow-zinc-100 hover:duration-500 hover:outline-none duration-[0.3s]">
+              <div className="flex items-center ">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md group-hover:scale-110 duration-500"
+                    src="./src/assets/home/asset 36.png"
+                    alt=""
+                  />
+                </div>
+                <div className="pl-8 leading-7">
+                  <div className="flex items-center">
+                    <span className="text-[#FFA800]">
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-line"></i>
+                    </span>
+                    <div>
+                      <h1 className="text-xs font-bold ml-2">
+                        700+{" "}
+                        <span className="text-gray-600 text-xs font-semibold">
+                          Reviews
+                        </span>{" "}
+                      </h1>
+                    </div>
+                  </div>
+                  <h1 className="text-gray-500 font-semibold mb-2 hover:text-[#3577F0] duration-700 cursor-pointer">
+                    Lenevo Laptop
+                  </h1>
+                  <p className="text-xl font-bold">$999.99 </p>
+                </div>
+              </div>
+              <div>
+                <a href="#" className="block mb-6">
+                  <i class="ri-shopping-cart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+                <a href="#">
+                  <i class="ri-heart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center outline outline-1 outline-gray-200 rounded-md p-7 group hover:shadow-lg hover:shadow-zinc-100 hover:duration-500 hover:outline-none duration-[0.3s]">
+              <div className="flex items-center ">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md group-hover:scale-110 duration-500"
+                    src="./src/assets/home/asset 37.png"
+                    alt=""
+                  />
+                </div>
+                <div className="pl-8 leading-7">
+                  <div className="flex items-center">
+                    <span className="text-[#FFA800]">
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-line"></i>
+                    </span>
+                    <div>
+                      <h1 className="text-xs font-bold ml-2">
+                        300+{" "}
+                        <span className="text-gray-600 text-xs font-semibold">
+                          Reviews
+                        </span>{" "}
+                      </h1>
+                    </div>
+                  </div>
+                  <h1 className="text-gray-500 font-semibold mb-2 hover:text-[#3577F0] duration-700 cursor-pointer">
+                    Juice Grinder Machine
+                  </h1>
+                  <p className="text-xl font-bold">$99.00 </p>
+                </div>
+              </div>
+              <div>
+                <a href="#" className="block mb-6">
+                  <i class="ri-shopping-cart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+                <a href="#">
+                  <i class="ri-heart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center outline outline-1 outline-gray-200 rounded-md p-7 group hover:shadow-lg hover:shadow-zinc-100 hover:duration-500 hover:outline-none duration-[0.3s]">
+              <div className="flex items-center ">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md group-hover:scale-110 duration-500"
+                    src="./src/assets/home/asset 38.png"
+                    alt=""
+                  />
+                </div>
+                <div className="pl-8 leading-7">
+                  <div className="flex items-center">
+                    <span className="text-[#FFA800]">
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-line"></i>
+                    </span>
+                    <div>
+                      <h1 className="text-xs font-bold ml-2">
+                        100+{" "}
+                        <span className="text-gray-600 text-xs font-semibold">
+                          Reviews
+                        </span>{" "}
+                      </h1>
+                    </div>
+                  </div>
+                  <h1 className="text-gray-500 font-semibold mb-2 hover:text-[#3577F0] duration-700 cursor-pointer">
+                    Wireless Headphone
+                  </h1>
+                  <p className="text-xl font-bold">$59.99 </p>
+                </div>
+              </div>
+              <div>
+                <a href="#" className="block mb-6">
+                  <i class="ri-shopping-cart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+                <a href="#">
+                  <i class="ri-heart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center outline outline-1 outline-gray-200 rounded-md p-7 group hover:shadow-lg hover:shadow-zinc-100 hover:duration-500 hover:outline-none duration-[0.3s]">
+              <div className="flex items-center ">
+                <div className="overflow-hidden rounded-md">
+                  <img
+                    className="rounded-md group-hover:scale-110 duration-500"
+                    src="./src/assets/home/asset 39.png"
+                    alt=""
+                  />
+                </div>
+                <div className="pl-8 leading-7">
+                  <div className="flex items-center">
+                    <span className="text-[#FFA800]">
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-line"></i>
+                    </span>
+                    <div>
+                      <h1 className="text-xs font-bold ml-2">
+                        100+{" "}
+                        <span className="text-gray-600 text-xs font-semibold">
+                          Reviews
+                        </span>{" "}
+                      </h1>
+                    </div>
+                  </div>
+                  <h1 className="text-gray-500 font-semibold mb-2 hover:text-[#3577F0] duration-700 cursor-pointer">
+                    Asus Zenbook Laptop
+                  </h1>
+                  <p className="text-xl font-bold">$899.00 </p>
+                </div>
+              </div>
+              <div>
+                <a href="#" className="block mb-6">
+                  <i class="ri-shopping-cart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+                <a href="#">
+                  <i class="ri-heart-line  p-3 rounded-md border text-gray-600 hover:text-white hover:bg-[#3577F0] hover:border-none hover:duration-500"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* service-section */}
 
       <div className="Service-section">
@@ -615,6 +985,10 @@ export const Home = () => {
             </h1>
           </div>
         </div>
+      </div>
+
+      <div>
+        <Footer />
       </div>
     </>
   );

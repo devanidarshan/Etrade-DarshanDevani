@@ -20,7 +20,7 @@ import visa from "../assets/Homepage/visaicon.png";
 
  export const SubFooter = () => {
   return (
-    <div className='mt-12 ml-5'>
+    <div className='Subfooter-section mt-12 mx-auto container'>
       <div className="footer-section flex justify-around  border-b-2 w-10/12 mx-24 py-10">
         <div className="first-part flex">
           <div className="">
@@ -63,7 +63,7 @@ import visa from "../assets/Homepage/visaicon.png";
         </div>
       </div>
 
-      <div className="second-part flex justify-between mt-9  mb-5 border-b-2 mx-20 w-10/12  ">
+      <div className="second-part flex justify-between mt-9  mb-5 border-b-2 mx-24 w-10/12  ">
         <div className="mb-14 ml-10">
           <h1 className="font-bold mb-5">Support</h1>
           <p className="text-gray-500">685 Market Street,</p>

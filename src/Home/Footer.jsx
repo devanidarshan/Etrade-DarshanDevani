@@ -22,19 +22,32 @@ import envelope from "../assets/Homepage/envelope.png";
 
 export const Footer = () => {
   return (
-    <div className=" Footer-Section image-section mr-12">
+    <div className=" Footer-Section image-section mx-auto container">
       <div className=" newsletter-section relative">
         <div className="image-section flex justify-center mt-8">
           <img className="rounded-md" src={image}></img>
           <div className="absolute flex left-[15%] mt-24">
-            <img className="h-6 w-6 border-black rounded-full bg-blue-500 p-1" src={envelope}></img>
+            <img
+              className="h-6 w-6 border-black rounded-full bg-blue-500 p-1"
+              src={envelope}
+            ></img>
             <h1 className="text-blue-600 font-semibold ml-2 ">Newsletter</h1>
           </div>
 
-            <h1 className="absolute mt-32 text-4xl font-bold left-[15%]">Get Weekly Update</h1>
-            <input className="absolute mt-56 h-14 w-[400px] rounded-lg left-[15%] pl-14 text-black" placeholder="example@gmail.com" type="text"></input>
-            <button className="absolute mt-56 mr-20 border border-black px-9 py-4 rounded-lg bg-gray-800 text-white text-md font-sans" type="submit">Subscribe</button>
-              
+          <h1 className="absolute mt-32 text-4xl font-bold left-[15%]">
+            Get Weekly Update
+          </h1>
+          <input
+            className="absolute mt-56 h-14 w-[400px] rounded-lg left-[15%] pl-14 text-black"
+            placeholder="example@gmail.com"
+            type="text"
+          ></input>
+          <button
+            className="absolute mt-56 mr-20 border border-black px-9 py-4 rounded-lg bg-gray-800 text-white text-md font-sans"
+            type="submit"
+          >
+            Subscribe
+          </button>
         </div>
       </div>
 
@@ -81,7 +94,7 @@ export const Footer = () => {
       </div>
 
       <div className="second-part flex justify-around mt-9  mb-5 border-b-2 mx-auto w-10/12  ">
-        <div className="mb-14">
+        <div className=" Address-part mb-14">
           <h1 className="font-bold mb-5">Support</h1>
           <p className="text-gray-500">685 Market Street,</p>
           <p className="text-gray-500">Las Vegas, LA 95820,</p>
@@ -89,37 +102,92 @@ export const Footer = () => {
 
           <div className="mt-5">
             <div className="flex">
-              <img className="h-6 w-6 text-gray-500" src={email}></img>
-              <p className="mb-3 text-gray-500 ml-2 hover:text-black cursor-pointer">
-                example@domain.com
-              </p>
+              <a href="">
+                <img className="h-6 w-6 text-gray-500" src={email}></img>
+              </a>
+              <a href="">
+                {" "}
+                <p className="mb-3 text-gray-500 ml-2 hover:text-black">
+                  example@domain.com
+                </p>
+              </a>
             </div>
 
             <div className="flex">
-              <img className="h-6 w-6 text-gray-500" src={call}></img>
-              <p className="text-gray-500 ml-2 hover:text-black cursor-pointer">
-                (+01)850-315-5862
-              </p>
+              <a href="">
+                {" "}
+                <img className="h-6 w-6 text-gray-500" src={call}></img>
+              </a>
+              <a href="">
+                {" "}
+                <p className="text-gray-500 ml-2 hover:text-black">
+                  (+01)850-315-5862
+                </p>
+              </a>
             </div>
           </div>
         </div>
 
-        <div className="mr-40">
-          <h1 className="font-bold mb-7">Account</h1>
-          <p className="text-gray-500 py-1">My Account</p>
-          <p className="text-gray-500 py-1">Login / Register</p>
-          <p className="text-gray-500 py-1">Cart</p>
-          <p className="text-gray-500 py-1">Wishlist</p>
-          <p className="text-gray-500 py-1">Shop</p>
+        <div className="Account-part">
+          <b className="text-gray-800">Account</b>
+          <ul className="list-item text-gray-500 font-medium mt-6">
+            <li className="mt-4">
+              <a className="link hover:text-gray-800 duration-500 " href="#">
+                My Account
+              </a>
+            </li>
+            <li className="mt-4">
+              <a className="link hover:text-gray-800 duration-500 " href="#">
+                Login / Register
+              </a>
+            </li>
+            <li className="mt-4">
+              <a className="link hover:text-gray-800 duration-500 " href="#">
+                Cart
+              </a>
+            </li>
+            <li className="mt-4">
+              <a className="link hover:text-gray-800 duration-500 " href="#">
+                Wishlist
+              </a>
+            </li>
+            <li className="mt-4">
+              <a className="link hover:text-gray-800 duration-500 " href="#">
+                Shop
+              </a>
+            </li>
+          </ul>
         </div>
 
-        <div className="mr-28">
-          <h1 className="font-bold mb-7 ">Quick Link</h1>
-          <p className="text-gray-500 py-1">Privacy Policy</p>
-          <p className="text-gray-500 py-1">Terms Of Use</p>
-          <p className="text-gray-500 py-1">FAQ</p>
-          <p className="text-gray-500 py-1">Contact</p>
-          <p className="text-gray-500 py-1">Contact</p>
+        <div className="QuickLink-part">
+          <b className="text-gray-800">Quick Link</b>
+          <ul className="list-item text-gray-500 font-medium mt-6">
+            <li className="mt-4">
+              <a className="link hover:text-gray-800 duration-500 " href="#">
+                Privacy Policy
+              </a>
+            </li>
+            <li className="mt-4">
+              <a className="link hover:text-gray-800 duration-500 " href="#">
+                Terms Of Use
+              </a>
+            </li>
+            <li className="mt-4">
+              <a className="link hover:text-gray-800 duration-500 " href="#">
+                FAQ
+              </a>
+            </li>
+            <li className="mt-4">
+              <a className="link hover:text-gray-800 duration-500 " href="#">
+                Contact
+              </a>
+            </li>
+            <li className="mt-4">
+              <a className="link hover:text-gray-800 duration-500 " href="#">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className="">
@@ -156,7 +224,7 @@ export const Footer = () => {
           <div className="">
             <img className="h-4 w-4 mr-5" src={twitter}></img>
           </div>
-          <div className=""> 
+          <div className="">
             <img className="h-4 w-4 mr-5" src={linkedin}></img>
           </div>
           {/* <div className=''>
@@ -164,12 +232,30 @@ export const Footer = () => {
         </div> */}
         </div>
 
-        <div className="">
-          <div className="flex ml-80 mt-3">
-            <img className="h-3 w-3 mt-1 mr-1" src={copyright}></img>
-            <p className="text-gray-500 text-sm">
-              2023. All rights reserved by Axilthemes.
-            </p>
+        <div className="flex text-gray-600 text-sm mt-2 ml-80">
+          <span className="mr-2">© 2023. All rights reserved by</span>
+          <div className="relative group">
+            <ul>
+              <li
+                className='before:absolute
+                            hover:text-gray-900 
+                            duration-300
+                            before:content-[""]
+                            before:w-0
+                            before:h-0.5
+                            before:bg-gray-900
+                            before:duration-500
+                            before:-bottom-0  
+                            before:opacity-0
+                            before:group-hover:w-[80px]
+                            before:right-[5px]
+                            before:group-hover:left-0
+                            before:group-hover:opacity-100
+                            '
+              >
+                <a href="#">Axilthemes.</a>
+              </li>
+            </ul>
           </div>
         </div>
 
