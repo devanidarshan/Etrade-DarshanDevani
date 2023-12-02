@@ -2,7 +2,7 @@ import React from "react";
 import alexa from "../assets/Privacypolicy/asset 2.png";
 import {Topnavbar} from '../Components/Topnavbar'
 import {Navbar} from '../Components/Navbar'
-import {Footer} from '../Home/Footer'
+import {SubFooter} from '../Home/SubFooter'
 
 export const Contact = () => {
   return (
@@ -17,9 +17,9 @@ export const Contact = () => {
         <Navbar/>
       </div>
 
-        <section className="Contact-section">
+        <section className="Contact-section mx-auto container">
         <div className="first-part flex bg-[#f8f8f8] justify-between p-12">
-          <div className="mx-16">
+          <div className="mx-20">
             <p className="text-gray-400 font-semibold">
               Home | <span className="text-blue-500">Contact</span>
             </p>
@@ -139,11 +139,15 @@ export const Contact = () => {
               </div>
             </div>
           </div>
+
+          <div className="">
+            <iframe className="w-[1280px] mx-32 rounded-lg h-[500px]" src="https://maps.google.com/maps?q=melbourne&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+          </div>
         </section>
       </div>
       
       <div>
-        <Footer/>
+        <SubFooter/>
       </div>
     </>
     );
