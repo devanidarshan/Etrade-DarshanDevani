@@ -20,9 +20,9 @@ import visa from "../assets/Homepage/visaicon.png";
 
  export const SubFooter = () => {
   return (
-    <div className='Subfooter-section mt-12 mx-auto container'>
-      <div className="footer-section flex justify-around  border-b-2 w-10/12 mx-24 py-10">
-        <div className="first-part flex">
+    <div className='SUBFOOTER-SECTION mt-12 mx-auto container'>
+      <div className="FOOOTER-SECTION flex justify-around  border-b-2 w-10/12 mx-24 py-10">
+        <div className="FIRST-PART flex">
           <div className="">
             <img className="h-11 w-11 mt-1" src={delivery}></img>
           </div>
@@ -32,7 +32,7 @@ import visa from "../assets/Homepage/visaicon.png";
           </div>
         </div>
 
-        <div className="first-part flex ">
+        <div className="FIRST-PART flex ">
           <div className="">
             <img className="h-11 w-11 mt-1" src={guarantee}></img>
           </div>
@@ -42,7 +42,7 @@ import visa from "../assets/Homepage/visaicon.png";
           </div>
         </div>
 
-        <div className="first-part flex ">
+        <div className="FIRST-PART flex ">
           <div className="">
             <img className="h-11 w-11 mt-1" src={policy}></img>
           </div>
@@ -52,7 +52,7 @@ import visa from "../assets/Homepage/visaicon.png";
           </div>
         </div>
 
-        <div className="first-part flex mr-16">
+        <div className="FIRST-PART flex mr-16">
           <div className="">
             <img className="h-11 w-11 mt-1" src={support}></img>
           </div>
@@ -63,7 +63,7 @@ import visa from "../assets/Homepage/visaicon.png";
         </div>
       </div>
 
-      <div className="second-part flex justify-between mt-9  mb-5 border-b-2 mx-24 w-10/12  ">
+      <div className="SECOND-PART flex justify-between mt-9  mb-5 border-b-2 mx-24 w-10/12  ">
         <div className="mb-14 ml-10">
           <h1 className="font-bold mb-5">Support</h1>
           <p className="text-gray-500">685 Market Street,</p>
@@ -128,7 +128,7 @@ import visa from "../assets/Homepage/visaicon.png";
         </div>
       </div>
 
-      <div className="Third-part flex ml-32 mb-4">
+      <div className="THIRD-PART flex ml-32 mb-4">
         <div className="flex mt-3 cursor-pointer">
           <div className="">
             <img className="h-4 w-4 mr-5" src={facebook}></img>
@@ -142,9 +142,6 @@ import visa from "../assets/Homepage/visaicon.png";
           <div className=""> 
             <img className="h-4 w-4 mr-5" src={linkedin}></img>
           </div>
-          {/* <div className=''>
-            <img className='' src={message}></img>
-        </div> */}
         </div>
 
         <div className="">

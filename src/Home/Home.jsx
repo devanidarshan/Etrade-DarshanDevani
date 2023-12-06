@@ -1,6 +1,9 @@
 import React from "react";
+import "../Home/Homestyle.css"
 import bgimg1 from "../assets/Homepage/asset 8.png";
 import bgimg2 from "../assets/Homepage/asset 9.png";
+import headphone from "../assets/Homepage/asset 6.png";
+import watch from "../assets/Homepage/asset 7.png";
 import rimage1 from "../assets/Homepage/asset 2.png";
 import rimage2 from "../assets/Homepage/asset 3.png";
 import rimage3 from "../assets/Homepage/asset 4.png";
@@ -12,6 +15,7 @@ import laptops from "../assets/Homepage/asset 18.png";
 import monitors from "../assets/Homepage/asset 19.png";
 import networking from "../assets/Homepage/asset 10.png";
 import pcgaming from "../assets/Homepage/asset 11.png";
+import signal from "../assets/Homepage/asset 20.png"
 import feed1 from "../assets/Homepage/asset 31.png";
 import feed2 from "../assets/Homepage/asset 29.png";
 import feed3 from "../assets/Homepage/asset 30.png";
@@ -30,16 +34,16 @@ export const Home = () => {
     <>
       {/* Header-section */}
 
-      <div className="Main-Header bg-[#f9f3f0] h-[800px] px-24 mx-auto container">
-        <div className="Header  flex justify-between pb-4">
-          <div className="Left-section ">
-            <div className="Main-left-section pt-2 ">
-              <div className="Dropdown flex">
+      <div className="MAIN-HEADER bg-[#f9f3f0] h-[800px] px-24 mx-auto container">
+        <div className="HEADER flex justify-between pb-4">
+          <div className="LEFT-SECTION">
+            <div className="MAIN-LEFT-SECTION pt-2 ">
+              <div className="DROPDOWN flex">
                 <div className="group">
                   <button className="btn-relative text-gray-500 " type="button">
                     English<i class="fa-solid fa-angle-down pl-1"></i>
                   </button>
-                  <ul className="bg-transparent cursor-pointer  text-md mr-3 opacity-0 group-hover:opacity-100 absolute left-30 p-2 m-auto bg-white">
+                  <ul className="bg-transparent cursor-pointer  text-md mr-3 rounded-md opacity-0 group-hover:opacity-100 absolute left-30 p-2 m-auto bg-white">
                     <li className=" bg-white text-black hover:bg-pink-400 duration-300 rounded-md m-auto ">
                       English
                     </li>
@@ -53,17 +57,20 @@ export const Home = () => {
                 </div>
 
                 <div className="group">
-                  <button className="ml-12 text-gray-500 " type="button">
+                  <button
+                    className="btn-relative text-gray-500 mx-6"
+                    type="button"
+                  >
                     USD<i class="fa-solid fa-angle-down pl-1"></i>
                   </button>
-                  <ul className="bg-transparent cursor-pointer text-md  text-gray-500 opacity-0  group-hover:opacity-100 absolute left-48 m-auto   ">
-                    <li className="bg-white text-black hover:bg-pink-400 duration-300 rounded-md px-3">
+                  <ul className="bg-transparent cursor-pointer  text-md mr-3 rounded-md opacity-0 group-hover:opacity-100 absolute left-48 p-2 m-auto bg-white">
+                    <li className=" bg-white text-black hover:bg-pink-400 duration-300 rounded-md m-auto ">
                       USD
                     </li>
-                    <li className="bg-white text-black hover:bg-pink-400 duration-300 rounded-md px-3">
+                    <li className="bg-white text-black hover:bg-pink-400 duration-300 rounded-md ">
                       AUD
                     </li>
-                    <li className="bg-white text-black hover:bg-pink-400 duration-300 rounded-md px-3">
+                    <li className="bg-white text-black hover:bg-pink-400 duration-300 rounded-md">
                       EUR
                     </li>
                   </ul>
@@ -72,7 +79,7 @@ export const Home = () => {
             </div>
           </div>
 
-          <div className="Right-section">
+          <div className="RIGHT-SECTION">
             <div className=" list-none flex text-md mt-2  ">
               <li className=" cursor-pointer hover:text-blue-600 duration-500 ml-6 text-gray-500">
                 Help
@@ -89,12 +96,12 @@ export const Home = () => {
 
         {/* NavBar */}
 
-        <div className="bg-white h-20 px-10 rounded-md py-5 flex align-middle justify-between">
-          <div className="Logo">
+        <div className="bg-white h-20 px-10 rounded-md py-5 flex align-middle justify-between sticky top-2 z-50">
+          <div className="LOGO">
             <img className="" src={Logo}></img>
           </div>
 
-          <div className="NavBar flex ">
+          <div className="NAVBAR flex z-10">
             <div className="group flex">
               <button
                 className=" relative font-bold mx-7  underline decoration-[2px] underline-offset-4"
@@ -102,7 +109,7 @@ export const Home = () => {
               >
                 Home<i class="fa-solid fa-angle-down text-gray-400 pl-1 "></i>
               </button>
-              <ul className="bg-white mb-4  space-y-3 font font-sans  block text-gray-800 mx-5 left-[30%] top-28 absolute  border-black cursor-pointer opacity-0 group-hover:opacity-100 duration-500 shadow-md rounded-lg p-6  ">
+              <ul className="bg-white mb-4  space-y-3 font font-sans  block text-gray-800 mx-5 left-[26%] top-16 absolute  border-black cursor-pointer opacity-0 group-hover:opacity-100 duration-500 shadow-md rounded-lg p-6  ">
                 <li className="bg-white font-normal text-[#ff497c] ">
                   Home-Electronics
                 </li>
@@ -138,7 +145,7 @@ export const Home = () => {
                 Shop<i class="fa-solid fa-angle-down text-gray-400 pl-1 "></i>
               </button>
 
-              <ul className="bg-white font-bold font-sans text-gray-800  mx-3 cursor-pointer opacity-0 group-hover:opacity-100 duration-500 shadow-md rounded-lg p-6 absolute  top-28 left-[37%] space-y-2">
+              <ul className="bg-white font-bold font-sans text-gray-800  mx-3 cursor-pointer opacity-0 group-hover:opacity-100 duration-500 shadow-md rounded-lg p-6 absolute  top-16 left-[35%] space-y-2">
                 <li className="bg-white font-normal hover:text-[#ff497c] duration-300">
                   Shop With Sidebar
                 </li>
@@ -179,7 +186,7 @@ export const Home = () => {
               >
                 Pages<i class="fa-solid fa-angle-down text-gray-400 pl-1 "></i>
               </button>
-              <ul className="bg-white font-bold font-sans text-gray-800  mx-3 cursor-pointer opacity-0 group-hover:opacity-100 duration-500 shadow-md rounded-lg p-9 absolute  top-28 left-[44%] space-y-2">
+              <ul className="bg-white font-bold font-sans text-gray-800  mx-3 cursor-pointer opacity-0 group-hover:opacity-100 duration-500 shadow-md rounded-lg p-9 absolute  top-16 left-[44%] space-y-2">
                 <li className="bg-white font-normal hover:text-[#ff497c] duration-300">
                   Whishlist
                 </li>
@@ -230,7 +237,7 @@ export const Home = () => {
               >
                 Blog<i class="fa-solid fa-angle-down text-gray-400 pl-1 "></i>
               </button>
-              <ul className="bg-white font-bold font-sans text-gray-800  mx-3 cursor-pointer opacity-0 group-hover:opacity-100 duration-500 shadow-md rounded-lg p-10 absolute  top-28 left-[56%] space-y-2">
+              <ul className="bg-white font-bold font-sans text-gray-800  mx-3 cursor-pointer opacity-0 group-hover:opacity-100 duration-500 shadow-md rounded-lg p-10 absolute  top-16 left-[59%] space-y-2">
                 <li className="bg-white font-normal hover:text-[#ff497c] duration-300">
                   Blog List
                 </li>
@@ -262,7 +269,7 @@ export const Home = () => {
 
           {/* icon-section */}
 
-          <div className="Icon-section">
+          <div className="ICON-SECTION">
             <ul className="flex mt-2 cursor-pointer">
               <li className="">
                 <i class="fa-solid fa-magnifying-glass mr-6"></i>
@@ -282,13 +289,46 @@ export const Home = () => {
 
         {/* Hero-Section */}
 
-        <div className="Hero-section  -top-52 h-[120vh] relative overflow-hidden px-10">
-          <div className="Background-img">
-            <img className="absolute right-80 -bottom-20" src={bgimg1} alt="" />
-            <img className="absolute right-10 -bottom-12" src={bgimg2} alt="" />
+        <div className="HERO-SECTION -top-52 h-[120vh] relative overflow-hidden px-10 ">
+          <div className="Background-img ">
+            <img
+              className="absolute right-80 -bottom-28 "
+              src={bgimg1}
+              alt=""
+            />
+            <img className="absolute right-1 -bottom-16" src={bgimg2} alt="" />
+
+            <div className="absolute right-[225px] bottom-36">
+              <img className="h-[440px] w-[530px] " src={headphone} alt="" />
+              <div className="absolute top-[15%] left-[30%] bg-white rounded-full">
+                <div className="h-24 w-24 flex justify-center items-center">
+                  <div>
+                    <h1 className="text-gray-500 text-md text-center">From</h1>
+                    <h1 className="text-[#3577F0] text-xl  font-semibold">
+                      $49.00
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                className="w-40 absolute right-[140px] bottom-32"
+                src={watch}
+                alt=""
+              />
+            </div>
+            <div className="absolute left-[43%] bottom-10">
+              <ul>
+                <li className="w-[34px] h-[4px] bg-[#FE497C] rounded-lg inline-block mx-1 cursor-pointer"></li>
+                <li className="w-[25px] h-[4px] bg-white rounded-lg inline-block mx-1 cursor-pointer"></li>
+                <li className="w-[25px] h-[4px] bg-white rounded-lg inline-block mx-1 cursor-pointer"></li>
+                <li className="w-[25px] h-[4px] bg-white rounded-lg inline-block mx-1 cursor-pointer"></li>
+              </ul>
+            </div>
           </div>
 
-          <div className="BACKGROUND-DETAIL absolute top-96">
+          <div className="BACKGROUND-DETAIL-SECTION absolute top-96">
             <div className="flex mb-4">
               <i className="ri-fire-fill h-6 w-6 text-base bg-[#FF497C] text-white rounded-full flex items-center justify-center"></i>
               <h1 className="text-[#FF497C] font-bold text-sm flex items-center ml-2">
@@ -366,7 +406,7 @@ export const Home = () => {
 
       {/* Category-section */}
 
-      <div className="Category-section px-32 mx-auto container">
+      <div className="CATEGORY-SECTION px-32 mx-auto container">
         <div className=" my-[70px]">
           <div className="flex mb-3">
             <i className="ri-price-tag-3-line h-6 w-6 text-base border bg-[#FF497C] text-white rounded-full flex items-center justify-center"></i>
@@ -453,9 +493,70 @@ export const Home = () => {
         </div>
       </div>
 
+      {/* Headphone-section */}
+
+      <section className='HEADPHONES-SECTION mb-[100px] container mx-auto px-32 pt-24'>
+                    <div className='relative w-full h-[500px] rounded-md bg-[#F6F7FB] '>
+                        <img className='absolute right-48 -top-24' src={signal} alt="" />
+                        <div className='music-signal'>
+                            <div className='item-circle circle-1'></div>
+                            <div className='item-circle circle-2'></div>
+                            <div className='item-circle circle-3'></div>
+                            <div className='item-circle circle-4'></div>
+                            <div className='item-circle circle-5'></div>
+                        </div>
+
+                        <div className='absolute top-16 left-16'>
+                            <div className='flex mb-3'>
+                                <i className="ri-headphone-line h-6 w-6 text-base border bg-[#FF497C] text-white rounded-full flex items-center justify-center"></i>
+                                <h1 className='text-[#FF497C] font-bold text-sm flex items-center ml-2'>Don’t Miss!!</h1>
+                            </div>
+                            <p className='font-bold text-5xl text-[#292930] leading-tight tracking-wide'>Enhance Your<br /> Music Experience</p>
+                            <div className='flex my-[30px]'>
+                                <div className='bg-white text-[#292930] rounded-full py-3 px-7 mr-4 '>
+                                    <p className='flex justify-center text-2xl'>0</p>
+                                    <p className='text-sm text-gray-500 font-medium '>Day</p>
+                                </div>
+                                <div className='bg-white text-[#292930] rounded-full py-3 px-6 mr-4 '>
+                                    <p className='flex justify-center text-2xl'>00</p>
+                                    <p className='text-sm text-gray-500 font-medium '>Hrs</p>
+                                </div>
+                                <div className='bg-white text-[#292930] rounded-full py-3 px-6 mr-4 '>
+                                    <p className='flex justify-center text-2xl'>00</p>
+                                    <p className='text-sm text-gray-500 font-medium '>Min</p>
+                                </div>
+                                <div className='bg-white text-[#292930] rounded-full py-3 px-6 mr-4 '>
+                                    <p className='flex justify-center text-2xl'>00</p>
+                                    <p className='text-sm text-gray-500 font-medium '>Sec</p>
+                                </div>
+                            </div>
+
+                            <div className='relative group z-10 '>
+                                <a href='#' className='absolute px-9 py-4 text-white font-bold rounded-md bg-[#3577F0]  
+                                before:content-[""]
+                                before:w-[162px]
+                                before:[50px]
+                                before:bg-[#3577F0]  
+                                before:absolute
+                                before:group-hover:scale-110
+                                before:top-0
+                                before:left-1
+                                before:rounded-md
+                                before:duration-300
+                                before:right-0
+                                before:bottom-0
+                                before:-z-10'
+                                >Check it Out!</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
       {/* Feedback-section */}
 
-      <div className="Feed-back-section mx-auto container">
+      <div className="FEED-BACK-SECTION mx-auto container">
         <div className="bg-[#F9F3F0]  px-32 py-20">
           <div className="flex justify-between ">
             <div className="mb-10">
@@ -468,12 +569,16 @@ export const Home = () => {
               </h1>
             </div>
             <div className="text-gray-400">
-              <a href="#">
-                <i class="ri-arrow-left-line mr-2 bg-[#F6F7FB] p-4 rounded-md"></i>
-              </a>
-              <a href="#">
-                <i class="ri-arrow-right-line bg-[#F6F7FB] p-4 rounded-md"></i>
-              </a>
+              <div className="hover:scale-110 duration-300 inline-block">
+                <a href="#">
+                  <i class="ri-arrow-left-line mr-2 bg-[#F6F7FB] p-4 rounded-md"></i>
+                </a>
+              </div>
+              <div className="hover:scale-110 duration-300 inline-block">
+                <a href="#">
+                  <i class="ri-arrow-right-line bg-[#F6F7FB] p-4 rounded-md"></i>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -541,7 +646,7 @@ export const Home = () => {
 
       {/* Trade - Strore */}
 
-      <div className="Trade-Store container mx-auto px-32">
+      <div className="TRADE-STORE-SECTION container mx-auto px-32">
         <div className="border-b pb-20">
           <div className="mt-14">
             <div className="mb-12 text-center">
@@ -910,7 +1015,7 @@ export const Home = () => {
 
       {/* service-section */}
 
-      <div className="Service-section">
+      <div className="SERVICE-SECTION">
         <div className="flex justify-center mt-14">
           <i class="fa-solid fa-thumbs-up border bg-[#ff497c] rounded-full p-1 text-white"></i>
           <p className="font-sans text-[#ff497c] font-semibold text-sm mt-1 ml-2">
