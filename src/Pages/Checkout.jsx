@@ -20,8 +20,8 @@ export const Checkout = () => {
       <Bgimg/>
     </div>
 
-      <div className="Checkout-section flex mt-20 ">
-        <div className="Form-section ml-40">
+      <div className="CHECKOUT-SECTION flex mt-20 mx-auto container">
+        <div className="FORM-SECTION ml-40">
           <h1 className="text-2xl font-semibold text-gray-800">
             Billing detalis
           </h1>
@@ -171,7 +171,7 @@ export const Checkout = () => {
           </div>
         </div>
 
-        <div className="right-section h-[1150px] bg-[#f9f3f0] border rounded-md ml-8">
+        <div className="RIGHT-SECTION h-[1150px] bg-[#f9f3f0] border rounded-md ml-8">
           <div className="  w-[600px]  ">
             <h1 className="mt-5 ml-12 text-xl font-semibold">Your order</h1>
             <div className="bg-white rounded-md  w-[540px] h-[550px] ml-7 mt-5">

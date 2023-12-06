@@ -21,8 +21,8 @@ export const Privacypolicy = () => {
       <Bgimg/>
     </div>
 
-    <div className="Privacy-section">
-      <div className="first-part flex bg-[#f8f8f8] justify-between p-12 ">
+    <div className="PRIVACY-SECTION mx-auto container">
+      <div className="FIRST-PART flex bg-[#f8f8f8] justify-between p-12 ">
         <div className="mx-16">
           <p className="text-gray-400 font-semibold">
             Home | <span className="text-blue-500">Pages</span>
@@ -36,7 +36,7 @@ export const Privacypolicy = () => {
         </div>
       </div>
 
-      <div className="Second-part flex mx-32">
+      <div className="SECOND-PART flex mx-32">
         <div className="">
           <div className="mt-20">
             <h2 className="font-semibold text-2xl text-gray-800 border-b-4 border-blue-500 pb-5 w-[628px]">

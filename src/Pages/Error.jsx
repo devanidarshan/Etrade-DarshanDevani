@@ -21,9 +21,9 @@ export const Error = () => {
       <Bgimg/>
     </div>
 
-    <div className="Error-section">
-      <div className="Error-section flex justify-around mt-28">
-        <div className="content-section ml-20">
+    <div className="ERROR-SECTION mx-auto container">
+      <div className="flex justify-around mt-28">
+        <div className="CONTENT-SECTION ml-20">
           <div className="flex mt-20">
             <i class="fa-solid fa-circle-exclamation border bg-[#ff497c] text-white rounded-full p-2"></i>
             <p className="text-[#ff497c] text-sm font-semibold ml-3 mt-1">Oops! Somthing's missing.</p>
@@ -40,7 +40,7 @@ export const Error = () => {
           </button>
         </div>
 
-        <div className="image-section mr-20">
+        <div className="IMAGE-SECTION mr-20">
           <img className="h-[400px] w-[600px]" src={error}></img>
         </div>
       </div>

@@ -22,8 +22,8 @@ export const Account = () => {
       <Bgimg/>
     </div>
 
-      <div className=" Account-section">
-        <div className="first-part flex bg-[#f8f8f8] justify-between p-12">
+      <div className="ACCOUNT-SECTION mx-auto container">
+        <div className="FIRST-PART flex bg-[#f8f8f8] justify-between p-12">
           <div className="mx-16">
             <p className="text-gray-400 font-semibold">
               Home | <span className="text-blue-500">My Account</span>
@@ -37,7 +37,7 @@ export const Account = () => {
           </div>
         </div>
 
-        <div className="Second-part ml-40 mt-20">
+        <div className="SECOND-PART ml-40 mt-20">
           <img className="rounded-full" src={author}></img>
           <h1 className="font-bold text-lg mt-3">Hello Annie</h1>
           <p className="text-gray-500 text-sm mt-1 font-semibold">
@@ -45,7 +45,7 @@ export const Account = () => {
           </p>
         </div>
 
-        <div className="Third-part mt-16 ml-40 flex">
+        <div className="THIRD-PART mt-16 ml-40 flex">
           <div className="h-96 w-72 border border-gray-300 rounded-lg">
             <div className="mt-10">
               <div className="flex text-blue-500 mx-10  bg-gray-100 p-2 rounded-lg ">

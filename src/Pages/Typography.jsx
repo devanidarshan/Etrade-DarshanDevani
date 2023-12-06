@@ -20,8 +20,8 @@ export const Typography = () => {
       <Bgimg/>
     </div>
 
-      <div className=" Typography-section">
-        <div className="First-part mt-20 ml-32">
+      <div className="TYPOGRAPHY-SECTION mx-auto container">
+        <div className="FIRST-PART mt-20 ml-32">
           <div className="flex text-5xl font-semibold text-gray-800 mb-9">
             <h1 className="">h1 - A Visual Type Scale</h1>
             <h1 className="ml-[134px]">46px</h1>
@@ -53,7 +53,7 @@ export const Typography = () => {
           </div>
         </div>
 
-        <div className="Second-part ml-32">
+        <div className="SECOND-PART ml-32">
           <div className="text-gray-600 leading-7">
             <p className="">
               B1 - Lorem ipsum dolor sit amet consectetur adipisicing elit.

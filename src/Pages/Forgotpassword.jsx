@@ -4,8 +4,8 @@ import signup from "../assets/Signup/asset 1.jpeg";
 
 export const Forgotpassword = () => {
   return (
-    <div className=" Signup-section flex h-screen">
-      <div className=" Image-section h-full w-[700px] relative">
+    <div className="FORGETPASSWORD-SECTION flex h-screen">
+      <div className="IMAGE-SECTION h-full w-[700px] relative">
         <span className="absolute ps-10 pt-10">
           <a href="">
             <img className="h-10 ml-16 mt-4 cursor-pointer" src={logo} alt="" />
@@ -22,7 +22,7 @@ export const Forgotpassword = () => {
         ></img>
       </div>
 
-      <div className="Form-section w-full">
+      <div className="FORM-SECTION w-full">
         <div className="flex justify-end mr-24 mt-10">
           <a className="">
             <i class="fa-solid fa-angle-left mt-5 mr-[570px] border px-3 py-2.5 rounded-md border-gray-300 hover:bg-blue-500 duration-300 hover:text-white"></i>

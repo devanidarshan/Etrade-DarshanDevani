@@ -4,8 +4,8 @@ import signup from "../assets/Signup/asset 1.jpeg";
 
 export const Signup = () => {
   return (
-    <div className=" Signup-section flex h-screen">
-      <div className=" Image-section h-full w-[700px] relative">
+    <div className="SIGN-UP-SECTION flex h-screen">
+      <div className="IMAGE-SECTION h-full w-[700px] relative">
         <span className="absolute ps-10 pt-10">
           <a href="">
             <img className="h-10 ml-16 mt-4 cursor-pointer" src={logo} alt="" />
@@ -18,7 +18,7 @@ export const Signup = () => {
         <img className="w-[490px] h-[900px] overflow-hidden fixed -z-10 object-cover" src={signup} alt=""></img>
       </div>
 
-      <div className="Form-section w-full">
+      <div className="FORM-SECTION w-full">
         <div className="flex justify-end mr-24 mt-10">
           <p className="mr-7 mt-5">Already a member?</p>
           <button

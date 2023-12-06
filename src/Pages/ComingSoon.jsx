@@ -4,8 +4,8 @@ import logo from "../assets/Signup/asset 0.png";
 
 export const ComingSoon = () => {
   return (
-    <div className=" ComingSoon-section flex">
-      <div className=" Image-section">
+    <div className="COMINGSOON-SECTION flex">
+      <div className="IMAGE-SECTION">
         <img
           className="h-[730px] w-[490px] object-cover"
           src={comingsoon}
@@ -13,7 +13,7 @@ export const ComingSoon = () => {
         ></img>
       </div>
 
-      <div className="content-section text-center ml-48 mt-44">
+      <div className="CONTENT-SECTION text-center ml-48 mt-44">
         <img className="mx-auto w-56" src={logo}></img>
         <h3 className="text-4xl font-bold text-gray-800 mt-7">
           Our new website is on the way

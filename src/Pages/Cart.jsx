@@ -22,8 +22,8 @@ export const Cart = () => {
         <Bgimg />
       </div>
 
-      <div className="Cart-section">
-        <div className="Table-section">
+      <div className="CART-SECTION mx-auto container">
+        <div className="TABLE-SECTION">
           <div className="mt-20 mx-28 flex justify-between">
             <h1 className="text-2xl text-gray-800 font-semibold">Your Cart</h1>
             <p className="mt-1 text-blue-500 hover:text-black cursor-pointer duration-300 text-md">
@@ -86,7 +86,7 @@ export const Cart = () => {
             </div>
           </div>
 
-          <div className="form-section flex justify-around mt-10">
+          <div className="FORM-SECTION flex justify-around mt-10">
             <input
               className="border-b-2 p-2 text-sm w-[500px] ml-24 focus:outline-none"
               type="text"
@@ -111,7 +111,7 @@ export const Cart = () => {
           </div>
         </div>
 
-        <div className="Logic-section w-[550px] h-[550px] border ml-[870px] mt-20 bg-[#f9f3f0] border-[#f9f3f0] rounded-md text-sm">
+        <div className="LOGIC-SECTION w-[550px] h-[550px] border ml-[870px] mt-20 bg-[#f9f3f0] border-[#f9f3f0] rounded-md text-sm">
           <h1 className="my-10 ml-8 text-xl">Order summary</h1>
           <div className="flex border-b-2 w-[500px] ml-5 py-4  ">
             <p className="ml-4 font-semibold text-lg">Subtotal</p>

@@ -22,8 +22,8 @@ export const Wishlist = () => {
       <Bgimg/>
     </div>
 
-      <div className="Wishlist-section">
-        <div className="Table-section">
+      <div className="WISHLIST-SECTION mx-auto container">
+        <div className="TABLE-SECTION">
           <div className="mx-28">
             <h1 className="text-2xl text-gray-900 mt-20">
               My Wish List on eTrade
