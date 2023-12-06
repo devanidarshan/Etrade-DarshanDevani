@@ -34,8 +34,8 @@ export const Bloggrid = () => {
       <Bgimg/>
     </div>
 
-      <div className="Blog-Grid-Section mx-auto container">
-      <div className="first-part flex bg-[#f8f8f8] justify-between p-12">
+      <div className="BLOG-GRID-SECTION mx-auto container">
+      <div className="FIRST-PART flex bg-[#f8f8f8] justify-between p-12">
           <div className="mx-16">
             <p className="text-gray-400 font-semibold">
               Home | <span className="text-blue-500">Blogs</span>
@@ -49,11 +49,11 @@ export const Bloggrid = () => {
           </div>
         </div>
 
-        <div className="Main-Section flex">
-          <div className="Right-Section ml-36">
-            <div className="First-part mt-20 flex">
-              <div className="Digital-part border rounded-lg p-5">
-                <div className="Image-section relative overflow-hidden rounded-lg">
+        <div className="MAIN-SECTION flex">
+          <div className="RIGHT-SECTION ml-36">
+            <div className="FIRST-PART mt-20 flex">
+              <div className="DIGITAL-PART border rounded-lg p-5">
+                <div className="IMAGE-SECTION relative overflow-hidden rounded-lg">
                   <a href="#">
                     <img
                       className="h-52 w-[350px] rounded-lg hover:scale-110 duration-300"
@@ -64,7 +64,7 @@ export const Bloggrid = () => {
                     Digital Art's
                   </button>
                 </div>
-                <div className="Content-section">
+                <div className="CONTENT-SECTION">
                   <a href="#">
                     <h1 className="text-xl font-semibold text-gray-800 hover:text-blue-600 duration-300 my-5">
                       Keeping yourself safe when buying <br />
@@ -80,8 +80,8 @@ export const Bloggrid = () => {
                 </div>
               </div>
 
-              <div className="Digital-part border rounded-lg p-5 ml-7">
-                <div className="Image-section relative overflow-hidden rounded-lg">
+              <div className="DIGITAL-PART border rounded-lg p-5 ml-7">
+                <div className="IMAGE-SECTION relative overflow-hidden rounded-lg">
                   <a href="#">
                     <img
                       className="h-52 w-[350px] rounded-lg hover:scale-110 duration-300"
@@ -92,7 +92,7 @@ export const Bloggrid = () => {
                     Photography
                   </button>
                 </div>
-                <div className="Content-section">
+                <div className="CONTENT-SECTION">
                   <a href="#">
                     <h1 className="text-xl font-semibold text-gray-800 hover:text-blue-600 duration-300 my-5">
                       Important updates for listing and <br />
@@ -109,9 +109,9 @@ export const Bloggrid = () => {
               </div>
             </div>
 
-            <div className="Second-part mt-7 flex">
-              <div className="Digital-part border rounded-lg p-5">
-                <div className="Image-section relative overflow-hidden rounded-lg">
+            <div className="SECOND-PART mt-7 flex">
+              <div className="DIGITAL-PART border rounded-lg p-5">
+                <div className="IMAGE-SECTION relative overflow-hidden rounded-lg">
                   <a href="#">
                     <img
                       className="h-52 w-[350px] rounded-lg hover:scale-110 duration-300"
@@ -122,7 +122,7 @@ export const Bloggrid = () => {
                     Music
                   </button>
                 </div>
-                <div className="Content-section">
+                <div className="CONTENT-SECTION">
                   <a href="#">
                     <h1 className="text-xl font-semibold text-gray-800 hover:text-blue-600 duration-300 my-5">
                       10 tips for avoiding scams and staying <br />
@@ -138,8 +138,8 @@ export const Bloggrid = () => {
                 </div>
               </div>
 
-              <div className="Digital-part border rounded-lg p-5 ml-7">
-                <div className="Image-section relative overflow-hidden rounded-lg">
+              <div className="DIGITAL-PART border rounded-lg p-5 ml-7">
+                <div className="IMAGE-SECTION relative overflow-hidden rounded-lg">
                   <a href="#">
                     <img
                       className="h-52 w-[350px] rounded-lg hover:scale-110 duration-300"
@@ -150,7 +150,7 @@ export const Bloggrid = () => {
                     Sports
                   </button>
                 </div>
-                <div className="Content-section">
+                <div className="CONTENT-SECTION">
                   <a href="#">
                     <h1 className="text-xl font-semibold text-gray-800 hover:text-blue-600 duration-300 my-5">
                       Keeping yourself safe when buying <br />
@@ -167,9 +167,9 @@ export const Bloggrid = () => {
               </div>
             </div>
 
-            <div className="Third-part mt-7 flex">
-              <div className="Digital-part border rounded-lg p-5">
-                <div className="Image-section relative overflow-hidden rounded-lg">
+            <div className="THIRD-PART mt-7 flex">
+              <div className="DIGITAL-PART border rounded-lg p-5">
+                <div className="IMAGE-SECTION relative overflow-hidden rounded-lg">
                   <a href="#">
                     <img
                       className="h-52 w-[350px] rounded-lg hover:scale-110 duration-300"
@@ -180,7 +180,7 @@ export const Bloggrid = () => {
                     Virtual Studio
                   </button>
                 </div>
-                <div className="Content-section">
+                <div className="CONTENT-SECTION">
                   <a href="#">
                     <h1 className="text-xl font-semibold text-gray-800 hover:text-blue-600 duration-300 my-5">
                       Important updates for listing and <br />
@@ -196,8 +196,8 @@ export const Bloggrid = () => {
                 </div>
               </div>
 
-              <div className="Digital-part border rounded-lg p-5 ml-7">
-                <div className="Image-section relative overflow-hidden rounded-lg">
+              <div className="DIGITAL-PART border rounded-lg p-5 ml-7">
+                <div className="IMAGE-SECTION relative overflow-hidden rounded-lg">
                   <a href="#">
                     <img
                       className="h-52 w-[350px] rounded-lg hover:scale-110 duration-300"
@@ -208,7 +208,7 @@ export const Bloggrid = () => {
                     Utility
                   </button>
                 </div>
-                <div className="Content-section">
+                <div className="CONTENT-SECTION">
                   <a href="#">
                     <h1 className="text-xl font-semibold text-gray-800 hover:text-blue-600 duration-300 my-5">
                       10 tips for avoiding scams and staying <br />
@@ -225,9 +225,9 @@ export const Bloggrid = () => {
               </div>
             </div>
 
-            <div className="Forth-part mt-7 flex">
-              <div className="Digital-part border rounded-lg p-5">
-                <div className="Image-section relative overflow-hidden rounded-lg">
+            <div className="FORTH-PART mt-7 flex">
+              <div className="DIGITAL-PART border rounded-lg p-5">
+                <div className="IMAGE-SECTION relative overflow-hidden rounded-lg">
                   <a href="#">
                     <img
                       className="h-52 w-[350px] rounded-lg hover:scale-110 duration-300"
@@ -238,7 +238,7 @@ export const Bloggrid = () => {
                     Sketch
                   </button>
                 </div>
-                <div className="Content-section">
+                <div className="CONTENT-SECTION">
                   <a href="#">
                     <h1 className="text-xl font-semibold text-gray-800 hover:text-blue-600 duration-300 my-5">
                       Keeping yourself safe when buying <br />
@@ -254,8 +254,8 @@ export const Bloggrid = () => {
                 </div>
               </div>
 
-              <div className="Digital-part border rounded-lg p-5 ml-7">
-                <div className="Image-section relative overflow-hidden rounded-lg">
+              <div className="DIGITAL-PART border rounded-lg p-5 ml-7">
+                <div className="IMAGE-SECTION relative overflow-hidden rounded-lg">
                   <a href="#">
                     <img
                       className="h-52 w-[350px] rounded-lg hover:scale-110 duration-300"
@@ -266,7 +266,7 @@ export const Bloggrid = () => {
                     Digital Art's
                   </button>
                 </div>
-                <div className="Content-section">
+                <div className="CONTENT-SECTION">
                   <a href="#">
                     <h1 className="text-xl font-semibold text-gray-800 hover:text-blue-600 duration-300 my-5">
                       Important updates for listing and <br />
@@ -283,9 +283,9 @@ export const Bloggrid = () => {
               </div>
             </div>
 
-            <div className="Five-part mt-7 flex">
-              <div className="Digital-part border rounded-lg p-5">
-                <div className="Image-section relative overflow-hidden rounded-lg">
+            <div className="FIVE-PART mt-7 flex">
+              <div className="DIGITAL-PART border rounded-lg p-5">
+                <div className="IMAGE-SECTION relative overflow-hidden rounded-lg">
                   <a href="#">
                     <img
                       className="h-52 w-[350px] rounded-lg hover:scale-110 duration-300"
@@ -296,7 +296,7 @@ export const Bloggrid = () => {
                     Digital Art's
                   </button>
                 </div>
-                <div className="Content-section">
+                <div className="CONTENT-PART">
                   <a href="#">
                     <h1 className="text-xl font-semibold text-gray-800 hover:text-blue-600 duration-300 my-5">
                       Keeping yourself safe when buying <br />
@@ -312,8 +312,8 @@ export const Bloggrid = () => {
                 </div>
               </div>
 
-              <div className="Digital-part border rounded-lg p-5 ml-7">
-                <div className="Image-section relative overflow-hidden rounded-lg">
+              <div className="DIGITAL-PART border rounded-lg p-5 ml-7">
+                <div className="IMAGE-SECTION relative overflow-hidden rounded-lg">
                   <a href="#">
                     <img
                       className="h-52 w-[350px] rounded-lg hover:scale-110 duration-300"
@@ -324,7 +324,7 @@ export const Bloggrid = () => {
                     Photography
                   </button>
                 </div>
-                <div className="Content-section">
+                <div className="CONTENT-PART">
                   <a href="#">
                     <h1 className="text-xl font-semibold text-gray-800 hover:text-blue-600 duration-300 my-5">
                       Important updates for listing and <br />
@@ -341,7 +341,7 @@ export const Bloggrid = () => {
               </div>
             </div>
 
-            <div className="button-section">
+            <div className="BUTTON-SECTION">
               <div className="my-20">
                 <ul className="flex">
                   <li className="border px-4 py-2 mr-3 rounded-lg bg-blue-500 text-white text-lg">
@@ -385,8 +385,8 @@ export const Bloggrid = () => {
             </div>
           </div>
 
-          <div className="Left-section ml-10">
-            <div className=" image-section border p-8 mt-20 rounded-lg">
+          <div className="LEFT-SECTION ml-10">
+            <div className="IMAGE-SECTION border p-8 mt-20 rounded-lg">
               <div className="rounded-lg">
                 <h1 className="text-lg font-semibold">Latest Posts</h1>
                 <div className="main-section flex mt-8 border-b-2 border-gray-100">
@@ -416,7 +416,7 @@ export const Bloggrid = () => {
               </div>
 
               <div className="rounded-lg  mt-6">
-                <div className="main-section flex border-b-2 border-gray-100">
+                <div className="MAIN-SECTION flex border-b-2 border-gray-100">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       {" "}
@@ -443,7 +443,7 @@ export const Bloggrid = () => {
               </div>
 
               <div className="rounded-lg  mt-6">
-                <div className="main-section flex">
+                <div className="MAIN-SECTION flex">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       <img
@@ -469,12 +469,12 @@ export const Bloggrid = () => {
               </div>
             </div>
 
-            <div className=" product-section border p-8 mt-10 rounded-lg">
+            <div className="PRODUCT-SECTION border p-8 mt-10 rounded-lg">
               <div className="rounded-lg">
                 <h1 className="text-lg font-semibold">
                   Recent Viewed Products
                 </h1>
-                <div className="main-section flex mt-8 border-b-2 border-gray-100">
+                <div className="MAIN-SECTION flex mt-8 border-b-2 border-gray-100">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       {" "}
@@ -500,7 +500,7 @@ export const Bloggrid = () => {
               </div>
 
               <div className="rounded-lg mt-6">
-                <div className="main-section flex border-b-2 border-gray-100">
+                <div className="MAIN-SECTION flex border-b-2 border-gray-100">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       <img
@@ -525,7 +525,7 @@ export const Bloggrid = () => {
               </div>
 
               <div className="rounded-lg mt-6">
-                <div className="main-section flex">
+                <div className="MAIN-SECTION flex">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       <img
@@ -550,7 +550,7 @@ export const Bloggrid = () => {
               </div>
             </div>
 
-            <div className="Search-section border rounded-lg mt-10 p-7">
+            <div className="SEARCH-SECTION border rounded-lg mt-10 p-7">
               <h1 className="text-lg text-gray-700 font-semibold mb-7">
                 Search
               </h1>
@@ -566,7 +566,7 @@ export const Bloggrid = () => {
               </form>
             </div>
 
-            <div className="Archieves-section border rounded-lg mt-10 p-7">
+            <div className="ARCHIEVES-SECTION border rounded-lg mt-10 p-7">
               <h1 className="text-lg text-gray-700 font-semibold mb-5">
                 Archives List
               </h1>
@@ -605,7 +605,7 @@ export const Bloggrid = () => {
               </select>
             </div>
 
-            <div className="Tags-section border rounded-lg p-7 mt-10">
+            <div className="TAGS-SECTION border rounded-lg p-7 mt-10">
               <h1 className="mb-8 text-lg text-gray-700 font-semibold">Tags</h1>
               <div className="flex">
                 <a

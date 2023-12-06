@@ -36,24 +36,24 @@ export const Videopost = () => {
         <Bgimg/>
       </div>
 
-      <div className="Videopost-section mx-auto container -z-10">
+      <div className="VIDEO-POST-SECTION mx-auto container -z-10">
         <div className="Image flex justify-center mt-20 relative mx-32 mb-10 after:absolute after:content-[''] after:w-[100%] after:-h-[100%] after:bg-black after:top-0 after:bottom-0 after:left-0 after:right-0 after:rounded-md after:opacity-[0.2] after:z-10">
           <img className="rounded-md" src={video}></img>
           <a href="https://www.youtube.com/watch?v=Tl4bQBfOtbg" target="_blank" className="absolute top-[50%] -translate-x-2/4 -translate-y-2/4 left-[50%] mx-auto z-20 rounded-full bg-black hover:opacity-80"><i className="fa-solid fa-play w-40 h-40 text-4xl z-30 text-white flex justify-center items-center opacity-100"></i></a>
         </div>
 
-        <div className="Main-section flex">
-          <div className="Left-section ml-56 mt-12">
+        <div className="MAIN-SECTION flex">
+          <div className="LEFT-SECTION ml-56 mt-12">
             <div className="mt-8 border-b-2 border-gray-100">
               <div className="text-4xl font-bold text-gray-800 leading-snug ">
                 How to generate blog ideas are great for <br />
                 businesses that sell both B2B and D2C.
               </div>
-              <div className="main-section flex mt-8">
+              <div className="MAIN-SECTION flex mt-8">
                 <div className="image">
                   <img className="h-12 w-12 rounded-full" src={rimage2}></img>
                 </div>
-                <div className="image-content ml-4">
+                <div className="IMAGE-CONTENT ml-4">
                   <a
                     href=""
                     className="font-semibold hover:text-blue-600 duration-300"
@@ -68,7 +68,7 @@ export const Videopost = () => {
               </div>
             </div>
 
-            <div className="Content-section text-gray-500 mt-10">
+            <div className="CONTENT-SECTION text-gray-500 mt-10">
               <p className="leading-7">
                 Habitasse per feugiat aliquam luctus accumsan curae, suspendisse
                 aliquam taciti eros neque, <br />
@@ -114,11 +114,11 @@ export const Videopost = () => {
                 questions, and tactical how-to <br />
                 resources.”
               </p>
-              <div className="main-section flex mt-8">
+              <div className="MAIN-SECTION flex mt-8">
                 <div className="image">
                   <img className="h-12 w-12 rounded-full" src={rimage2}></img>
                 </div>
-                <div className="image-content ml-4">
+                <div className="IMAGE-CONTENT ml-4">
                   <a
                     href=""
                     className="font-semibold hover:text-blue-600 duration-300"
@@ -133,7 +133,7 @@ export const Videopost = () => {
               </div>
             </div>
 
-            <div className="Uda-section mt-10">
+            <div className="UDA-SECTION mt-10">
               <h1 className="text-3xl font-semibold text-gray-800">
                 Habitasse per feugiat aliquam luctus accumsan curae
               </h1>
@@ -146,7 +146,7 @@ export const Videopost = () => {
                 resources.
               </p>
 
-              <div className="image-section flex mt-8">
+              <div className="IMAGE-SECTION flex mt-8">
                 <img className="h-48 w-[350px] rounded-md mr-7" src={uda}></img>
                 <img className="h-48 w-[350px] rounded-md" src={shoes}></img>
               </div>
@@ -180,19 +180,19 @@ export const Videopost = () => {
               </p>
             </div>
 
-            <div className="Comment-section mt-8">
+            <div className="COMMENT-SECTION mt-8">
               <h1 className="text-2xl font-semibold text-gray-800">
                 2 Comments
               </h1>
-              <div className="1st-comment">
-                <div className="main-section flex mt-10">
+              <div className="1ST-COMMENT">
+                <div className="MAIN-SECTION flex mt-10">
                   <div className="image">
                     <img
                       className="h-16 w-16 rounded-full"
                       src={comment1}
                     ></img>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className=" text-xl hover:text-blue-600 duration-300"
@@ -218,14 +218,14 @@ export const Videopost = () => {
                       condimentum ac sapien quis maximus.{" "}
                     </p>
 
-                    <div className="main-section flex mt-10">
+                    <div className="MAIN-SECTION flex mt-10">
                       <div className="image">
                         <img
                           className="h-16 w-16 rounded-full"
                           src={comment1}
                         ></img>
                       </div>
-                      <div className="image-content ml-4">
+                      <div className="IMAGE-CONTENT ml-4">
                         <a
                           href=""
                           className=" text-xl hover:text-blue-600 duration-300"
@@ -255,7 +255,7 @@ export const Videopost = () => {
                 </div>
               </div>
 
-              <div className="2nd-commemt main-section flex mt-10">
+              <div className="2ND-COMMENT main-section flex mt-10">
                 <div className="image">
                   <img className="h-16 w-16 rounded-full" src={comment2}></img>
                 </div>
@@ -288,13 +288,13 @@ export const Videopost = () => {
               </div>
             </div>
 
-            <div className="Leave-section mt-8">
+            <div className="LEAVE-SECTION mt-8">
               <h1 className="text-2xl font-semibold">Leave a Reply</h1>
               <p className="text-gray-500 mt-6">
                 Your email address will not be published.
               </p>
 
-              <div className="Form-section">
+              <div className="FORM-SECTION">
                 <div className="relative mt-8">
                   <label className="absolute top-[-5px] left-[20px] bg-[#fff] px-2 text-gray-600  text-md ">
                     Leave a Reply
@@ -340,8 +340,8 @@ export const Videopost = () => {
             </button>
           </div>
 
-          <div className="Right-section ml-14 mt-24">
-            <div className=" image-section border p-8  rounded-lg">
+          <div className="RIGHT-SECTION ml-14 mt-24">
+            <div className="IMAGE-SECTION border p-8  rounded-lg">
               <div className="rounded-lg">
                 <h1 className="text-lg font-semibold">Latest Posts</h1>
                 <div className="main-section flex mt-8 border-b-2 border-gray-100">
@@ -354,7 +354,7 @@ export const Videopost = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -371,7 +371,7 @@ export const Videopost = () => {
               </div>
 
               <div className="rounded-lg  mt-5">
-                <div className="main-section flex border-b-2 border-gray-100">
+                <div className="MAIN-SECTION flex border-b-2 border-gray-100">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       {" "}
@@ -381,7 +381,7 @@ export const Videopost = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -398,7 +398,7 @@ export const Videopost = () => {
               </div>
 
               <div className="rounded-lg  mt-5">
-                <div className="main-section flex">
+                <div className="MAIN-SECTION flex">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       <img
@@ -407,7 +407,7 @@ export const Videopost = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -424,12 +424,12 @@ export const Videopost = () => {
               </div>
             </div>
 
-            <div className=" product-section border p-8 mt-10 rounded-lg">
+            <div className="PRODUCT-SECTION border p-8 mt-10 rounded-lg">
               <div className="rounded-lg">
                 <h1 className="text-lg font-semibold">
                   Recent Viewed Products
                 </h1>
-                <div className="main-section flex mt-8 border-b-2 border-gray-100">
+                <div className="MAIN-SECTION flex mt-8 border-b-2 border-gray-100">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       {" "}
@@ -439,7 +439,7 @@ export const Videopost = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-SECTION ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -459,7 +459,7 @@ export const Videopost = () => {
               </div>
 
               <div className="rounded-lg mt-5">
-                <div className="main-section flex border-b-2 border-gray-100">
+                <div className="MAIN-SECTION flex border-b-2 border-gray-100">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       <img
@@ -468,7 +468,7 @@ export const Videopost = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-SECTION ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -488,7 +488,7 @@ export const Videopost = () => {
               </div>
 
               <div className="rounded-lg mt-5">
-                <div className="main-section flex ">
+                <div className="MAIN-SECTION flex ">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       <img
@@ -497,7 +497,7 @@ export const Videopost = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -517,7 +517,7 @@ export const Videopost = () => {
               </div>
             </div>
 
-            <div className="Search-section border rounded-lg mt-10 p-7">
+            <div className="SEARCH-SECTION border rounded-lg mt-10 p-7">
               <h1 className="text-lg text-gray-700 font-semibold mb-7">
                 Search
               </h1>
@@ -533,7 +533,7 @@ export const Videopost = () => {
               </form>
             </div>
 
-            <div className="Archieves-section border rounded-lg mt-10 p-7">
+            <div className="ARCHIEVES-SECTION border rounded-lg mt-10 p-7">
               <h1 className="text-lg text-gray-700 font-semibold mb-5">
                 Archives List
               </h1>
@@ -572,7 +572,7 @@ export const Videopost = () => {
               </select>
             </div>
 
-            <div className="Tags-section border rounded-lg p-7 mt-10">
+            <div className="TAGS-SECTION border rounded-lg p-7 mt-10">
               <h1 className="mb-8 text-lg text-gray-700 font-semibold">Tags</h1>
               <div className="flex">
                 <a
@@ -632,8 +632,8 @@ export const Videopost = () => {
           </div>
         </div>
 
-        <div className="Hot-News-Section mt-20 ml-32">
-          <div className="Main-section">
+        <div className="HOT-NEWS-SECTION mt-20 ml-32">
+          <div className="MAIN-SECTION">
             <div className="News flex">
               <div className="">
                 <i class="fa-solid fa-bell border p-2 rounded-full h-8 w-8 bg-[#8c71db] text-white"></i>
@@ -657,8 +657,8 @@ export const Videopost = () => {
             </div>
           </div>
 
-          <div className="Shoes-section my-16 flex">
-            <div className="1st-Shoes mr-7">
+          <div className="SHOES-SECTION my-16 flex">
+            <div className="1ST-SHOES mr-7">
               <img
                 className="image rounded-lg cursor-pointer"
                 src={shoes1}
@@ -672,11 +672,11 @@ export const Videopost = () => {
                   <br />
                   Highlights Converse's Outdoor Heritage
                 </a>
-                <div className="main-section flex mt-8">
+                <div className="MAIN-SECTION flex mt-8">
                   <div className="image">
                     <img className="h-12 w-12 rounded-full" src={rimage2}></img>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -692,7 +692,7 @@ export const Videopost = () => {
               </div>
             </div>
 
-            <div className="2st-Shoes mr-7">
+            <div className="2ND-SHOES mr-7">
               <img className="rounded-lg cursor-pointer" src={shoes2}></img>
               <div className=" mt-8">
                 <a
@@ -705,11 +705,11 @@ export const Videopost = () => {
                   <br />
                   Brand
                 </a>
-                <div className="main-section flex mt-8">
+                <div className="MAIN-SECTION flex mt-8">
                   <div className="image">
                     <img className="h-12 w-12 rounded-full" src={rimage1}></img>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -725,7 +725,7 @@ export const Videopost = () => {
               </div>
             </div>
 
-            <div className="3st-Shoes">
+            <div className="3RD-SHOES">
               <img className="rounded-lg cursor-pointer" src={shoes3}></img>
               <div className=" mt-8">
                 <a
@@ -735,11 +735,11 @@ export const Videopost = () => {
                   An oral history of the AIM away message by <br />
                   the people who were there
                 </a>
-                <div className="main-section flex mt-8">
+                <div className="MAIN-SECTION flex mt-8">
                   <div className="image">
                     <img className="h-12 w-12 rounded-full" src={rimage3}></img>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"

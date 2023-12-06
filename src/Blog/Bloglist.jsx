@@ -33,8 +33,8 @@ export const Bloglist = () => {
         <Bgimg />
       </div>
 
-      <div className=" Blog-list-section mx-auto container">
-        <div className="first-part flex bg-[#f8f8f8] justify-between p-12">
+      <div className="BLOG-LIST-SECTION mx-auto container">
+        <div className="FIRST-PART flex bg-[#f8f8f8] justify-between p-12">
           <div className="mx-20">
             <p className="text-gray-400 font-semibold">
               Home | <span className="text-blue-500">Blogs</span>
@@ -46,16 +46,16 @@ export const Bloglist = () => {
           </div>
         </div>
 
-        <div className="main-section flex">
-          <div className="Left-section">
-            <div className="Dubai-section bg-[#f9f3f0] h-[400px] w-[850px] mt-20 rounded-lg ml-32 border-l-4 border-red-200 p-14">
+        <div className="MAIN-SECTION flex">
+          <div className="LEFT-SECTION">
+            <div className="DUBAI-SECTION bg-[#f9f3f0] h-[400px] w-[850px] mt-20 rounded-lg ml-32 border-l-4 border-red-200 p-14">
               <a
                 href="#"
                 className="text-2xl font-semibold text-gray-800 hover:text-blue-600 duration-300"
               >
                 Dubai’s Offers its Take Nike SB Dunk.
               </a>
-              <div className="main-section flex mt-8">
+              <div className="MAIN-SECTION flex mt-8">
                 <div className="image">
                   <img className="h-12 w-12" src={rimage1}></img>
                 </div>
@@ -100,7 +100,7 @@ export const Bloglist = () => {
                 Jordan <br />
                 Brand
               </a>
-              <div className="main-section flex mt-8">
+              <div className="MAIN-SECTION flex mt-8">
                 <div className="image">
                   <img className="h-12 w-12 rounded-full" src={rimage2}></img>
                 </div>
@@ -140,7 +140,7 @@ export const Bloglist = () => {
                 “An oral history of the AIM away message <br />
                 (by the people who were there)”
               </a>
-              <div className="main-section flex mt-8">
+              <div className="MAIN-SECTION flex mt-8">
                 <div className="image">
                   <img className="h-12 w-12 rounded-full" src={rimage2}></img>
                 </div>
@@ -159,7 +159,7 @@ export const Bloglist = () => {
               </div>
             </div>
 
-            <div className="Video-section">
+            <div className="VIDEO-SECTION">
               <div className="Image flex justify-center mt-20 relative ml-32 mb-10 after:absolute after:content-[''] after:w-[100%] after:-h-[100%] after:bg-black after:top-0 after:bottom-0 after:left-0 after:right-0 after:rounded-md after:opacity-[0.2] after:z-10">
                 <img className="rounded-md" src={video}></img>
                 <a
@@ -181,7 +181,7 @@ export const Bloglist = () => {
                 Jordan <br />
                 Brand
               </a>
-              <div className="main-section flex mt-8">
+              <div className="MAIN-SECTION flex mt-8">
                 <div className="image">
                   <img className="h-12 w-12 rounded-full" src={rimage2}></img>
                 </div>
@@ -213,7 +213,7 @@ export const Bloglist = () => {
               </a>
             </div>
 
-            <div className="image-section ml-32 border-t-2 border-gray-100 relative group">
+            <div className="IMAGE-SECTION ml-32 border-t-2 border-gray-100 relative group">
               <a href="#" className="">
                 <img className="rounded-lg mt-16" src={shoes}></img>
               </a>
@@ -242,7 +242,7 @@ export const Bloglist = () => {
                 Jordan <br />
                 Brand
               </a>
-              <div className="main-section flex mt-8">
+              <div className="MAIN-SECTION flex mt-8">
                 <div className="image">
                   <img className="h-12 w-12 rounded-full" src={rimage3}></img>
                 </div>
@@ -271,7 +271,7 @@ export const Bloglist = () => {
               </a>
             </div>
 
-            <div className="button-section">
+            <div className="BUTTON-SECTION">
               <div className="ml-32 my-20">
                 <ul className="flex">
                   <li className="border px-4 py-2 mr-3 rounded-lg bg-blue-500 text-white text-lg">
@@ -315,8 +315,8 @@ export const Bloglist = () => {
             </div>
           </div>
 
-          <div className="Right-section ml-8">
-            <div className=" image-section border p-8 mt-20 rounded-lg">
+          <div className="RIGHT-SECTION ml-8">
+            <div className="IMAGE-SECTION border p-8 mt-20 rounded-lg">
               <div className="rounded-lg">
                 <h1 className="text-lg font-semibold">Latest Posts</h1>
                 <div className="main-section flex mt-8 border-b-2 border-gray-100">
@@ -329,7 +329,7 @@ export const Bloglist = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -346,7 +346,7 @@ export const Bloglist = () => {
               </div>
 
               <div className="rounded-lg  mt-6">
-                <div className="main-section flex border-b-2 border-gray-100">
+                <div className="MAIN-SECTION flex border-b-2 border-gray-100">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       {" "}
@@ -356,7 +356,7 @@ export const Bloglist = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -373,7 +373,7 @@ export const Bloglist = () => {
               </div>
 
               <div className="rounded-lg  mt-6">
-                <div className="main-section flex">
+                <div className="MAIN-SECTION flex">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       <img
@@ -382,7 +382,7 @@ export const Bloglist = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -399,12 +399,12 @@ export const Bloglist = () => {
               </div>
             </div>
 
-            <div className=" product-section border p-8 mt-10 rounded-lg">
+            <div className="PRODUCT-SECTION border p-8 mt-10 rounded-lg">
               <div className="rounded-lg">
                 <h1 className="text-lg font-semibold">
                   Recent Viewed Products
                 </h1>
-                <div className="main-section flex mt-8 border-b-2 border-gray-100">
+                <div className="MAIN-SECTION flex mt-8 border-b-2 border-gray-100">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       {" "}
@@ -414,7 +414,7 @@ export const Bloglist = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -432,7 +432,7 @@ export const Bloglist = () => {
               </div>
 
               <div className="rounded-lg mt-6">
-                <div className="main-section flex  border-b-2 border-gray-100">
+                <div className="MAIN-SECTION flex  border-b-2 border-gray-100">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       <img
@@ -441,7 +441,7 @@ export const Bloglist = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -459,7 +459,7 @@ export const Bloglist = () => {
               </div>
 
               <div className="rounded-lg mt-6">
-                <div className="main-section flex">
+                <div className="MAIN-SECTION flex">
                   <div className="image overflow-hidden rounded-lg">
                     <a href="#">
                       <img
@@ -468,7 +468,7 @@ export const Bloglist = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="image-content ml-4">
+                  <div className="IMAGE-CONTENT ml-4">
                     <a
                       href=""
                       className="font-semibold hover:text-blue-600 duration-300"
@@ -486,7 +486,7 @@ export const Bloglist = () => {
               </div>
             </div>
 
-            <div className="Search-section border rounded-lg mt-10 p-7">
+            <div className="SEARCH-SECTION border rounded-lg mt-10 p-7">
               <h1 className="text-lg text-gray-700 font-semibold mb-7">
                 Search
               </h1>
@@ -502,7 +502,7 @@ export const Bloglist = () => {
               </form>
             </div>
 
-            <div className="Archieves-section border rounded-lg mt-10 p-7">
+            <div className="ARCHIEVES-SECTION border rounded-lg mt-10 p-7">
               <h1 className="text-lg text-gray-700 font-semibold mb-5">
                 Archives List
               </h1>
@@ -541,7 +541,7 @@ export const Bloglist = () => {
               </select>
             </div>
 
-            <div className="Tags-section border rounded-lg p-7 mt-10">
+            <div className="TAGS-SECTION border rounded-lg p-7 mt-10">
               <h1 className="mb-8 text-lg text-gray-700 font-semibold">Tags</h1>
               <div className="flex">
                 <a
