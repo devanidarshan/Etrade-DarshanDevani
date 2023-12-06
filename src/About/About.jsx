@@ -31,10 +31,9 @@ export const About = () => {
         <Bgimg/>
       </div>
 
-        <section className="About-section">
-
-        <div className="first-part flex bg-[#f8f8f8] justify-between p-12">
-          <div className="mx-16">
+    <section className="ABOUT-SECTION mx-auto container">
+       <div className="first-part flex bg-[#f8f8f8] justify-between p-12">
+          <div className="mx-20">
             <p className="text-gray-400 font-semibold">
               Home | <span className="text-blue-500">About Us</span>
             </p>
@@ -84,7 +83,7 @@ export const About = () => {
               </div>
             </div>
 
-            <div className="3-box absolute top-[1000px] pr-24">
+            <div className="3-box absolute top-[1060px] pr-24 mx-auto container">
               <div className="grid grid-cols-3 gap-7">
                 <div className="py-[50px] px-[60px] bg-white rounded-md  hover:border hover:border-[#3577F0] shadow-md ">
                   <img className="mb-5 " src={customer} alt="" />
@@ -120,7 +119,7 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="Our-team bg-[#F6F6F6]">
+          <div className="OUR-TEAM-SECTION bg-[#F6F6F6]">
             <div className="px-32 pt-[170px]">
               <div className="flex justify-between items-center ">
                 <div className="flex mb-2">
@@ -197,7 +196,7 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="Solution-section">
+          <div className="SOLUTION-SECTION">
             <div className="px-32">
               <div className=" flex items-center mt-[80px] ">
                 <div>
