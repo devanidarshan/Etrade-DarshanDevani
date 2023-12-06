@@ -28,9 +28,9 @@ export const Productvariation2 = () => {
         <Bgimg />
       </div>
 
-      <section className="Image and description  bg-[#F9F3F0] mb-[100px]">
+      <section className="IMAGE-DESCRIPTION  bg-[#F9F3F0] mb-[100px]">
         <div className="grid grid-cols-2 gap-10 py-[80px] px-[120px] container mx-auto">
-          <div className="main-div-photos flex">
+          <div className="MAIN-DIV-PHOTOES flex">
             <div>
               <img
                 className="rounded-full mb-5 ring-2 ring-[#417EF0]"
@@ -80,7 +80,7 @@ export const Productvariation2 = () => {
               </div>
             </div>
           </div>
-          <div className="main-div-details ">
+          <div className="MAIN-DIV-DETAILS">
             <h1 className="font-bold text-4xl text-[#292930] tracking-wide mb-8">
 Squre Cateye Sunglasses
             </h1>

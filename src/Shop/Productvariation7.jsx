@@ -24,7 +24,7 @@ export const Productvariation7 = () => {
         <Bgimg />
       </div>
 
-      <section className="Image and Description my-[80px] px-[120px]">
+      <section className="IMAGE-DESCRIPTION my-[80px] px-[120px]">
         <div className="container mx-auto ">
           <div className="grid grid-cols-2">
             <div className="h-[620px] sticky top-28">
@@ -98,7 +98,7 @@ export const Productvariation7 = () => {
                 </div>
               </div>
 
-              <div className="Form-section bg-[#F9F3F0] p-10 mt-7 rounded-md">
+              <div className="FORM-SECTION bg-[#F9F3F0] p-10 mt-7 rounded-md">
                 <div className="flex justify-between mb-3">
                   <div className="bg-white py-2 px-8 font-semibold text-lg tracking-wide rounded-md text-[#3577F0] ">
                     Description
@@ -148,7 +148,7 @@ export const Productvariation7 = () => {
                   </div>
                 </div>
 
-                <div className="Additional-Information bg-white rounded-md p-7 hidden">
+                <div className="ADDITIONAL-INFORMATION bg-white rounded-md p-7 hidden">
                   <div className="py-5 flex bg-[#F6F7FB] text-[#292930] ">
                     <h1 className="w-[200px] font-semibold px-10">Brand</h1>
                     <h1 className="text-gray-500 font-normal ml-24">eTrade</h1>

@@ -20,7 +20,7 @@ export const Shopwithsidebar = () => {
         <Bgimg />
       </div>
     
-      <div className="first-part flex bg-[#f8f8f8] justify-between py-12 mx-auto container">
+      <div className="FIRST-PART flex bg-[#f8f8f8] justify-between py-12 mx-auto container">
         <div className="mx-16">
           <p className="text-gray-400 font-semibold">
             Home | <span className="text-blue-500">My Account</span>

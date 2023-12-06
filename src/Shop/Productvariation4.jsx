@@ -29,10 +29,10 @@ export const Productvariation4 = () => {
         <Bgimg />
       </div>
 
-      <section className="Image and Description bg-[#F9F3F0] mb-[100px]">
+      <section className="IMAGE-DECRIPTION bg-[#F9F3F0] mb-[100px]">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 gap-10 py-[80px] px-[120px]">
-            <div className="main-div-photos">
+            <div className="MAIN-DIV-PHOTOES">
               <div className="relative ">
                 <div className="flex absolute top-[50%] justify-between w-[615px]">
                   <div className="hover:scale-110 duration-300 ">
@@ -87,7 +87,7 @@ export const Productvariation4 = () => {
                 </div>
               </div>
             </div>
-            <div className="main-div-details ">
+            <div className="MAIN-DIV-DETAILS">
               <h1 className="font-bold text-4xl text-[#292930] tracking-wide mb-8">
                 Miles Weekender Bag
               </h1>

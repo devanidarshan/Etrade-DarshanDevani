@@ -32,10 +32,10 @@ export const Productvariation5 = () => {
         <Bgimg />
       </div>
 
-      <section className="IMAGES-AND-DISCRIPTION mb-[100px]">
+      <section className="IMAGES-DISCRIPTION mb-[100px]">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 gap-10 py-[80px] px-[120px]">
-            <div className="main-div-photos ">
+            <div className="MAIN-DIV-PHOTOES">
               <div className="flex justify-between items-center relative">
                 <div className="hover:scale-110 duration-300 absolute">
                   <a href="#" className="text-gray-500 ">
@@ -93,7 +93,7 @@ export const Productvariation5 = () => {
               </div>
             </div>
 
-            <div className="main-div-details ">
+            <div className="MAIN-DIV-DETAILS">
               <h1 className="font-bold text-4xl text-[#292930] tracking-wide mb-8">
                 Wooden Sofa Chair
               </h1>

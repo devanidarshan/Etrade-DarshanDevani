@@ -32,9 +32,9 @@ export const Productvariation1 = () => {
         <Bgimg />
       </div>
 
-      <section className="Image-and-description  bg-[#F9F3F0]">
+      <section className="IMAGE-DESCRIPTION  bg-[#F9F3F0]">
         <div className="grid grid-cols-2 gap-16 py-[80px] px-[120px] container mx-auto ">
-          <div className="main-div-photos grid grid-cols-2 gap-5">
+          <div className="MAIN-DIV-PHOTOES grid grid-cols-2 gap-5">
             <img
               className="rounded-md bg-cover h-[350px]"
               src={first}
@@ -86,7 +86,7 @@ export const Productvariation1 = () => {
               alt=""
             />
           </div>
-          <div className="main-div-details h-[1140px] sticky top-28">
+          <div className="MAIN-DIV-DETAILS h-[1140px] sticky top-28">
             <h1 className="font-bold text-4xl text-[#292930] tracking-wide mb-8">
               Ella Everyday Tote
             </h1>

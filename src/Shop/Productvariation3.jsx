@@ -30,9 +30,9 @@ export const Productvariation3 = () => {
         <Bgimg />
       </div>
 
-      <section className="Images and Description ">
+      <section className="IMAGE-DESCRIPTION">
         <div className="flex py-[80px] px-[120px] container mx-auto">
-          <div className="main-div-photos flex w-[1700px]">
+          <div className="MAIN-DIV-PHOTOES flex w-[1700px]">
             <div>
               <img
                 className="w-[90px] rounded-md mb-7 ring-2 ring-[#417EF0]"
@@ -78,7 +78,7 @@ export const Productvariation3 = () => {
             </div>
           </div>
 
-          <div className="main-div-details ml-9">
+          <div className="MAIN-DIV-DETAILS ml-9">
             <h1 className="font-bold text-4xl text-[#292930] tracking-wide mb-9">
               3D™ wireless headset
             </h1>
@@ -207,8 +207,8 @@ export const Productvariation3 = () => {
           </div>
         </div>
 
-        <div className="Bottom-Details-Part bg-[#F9F3F0] py-[100px] px-[120px]">
-          <div className=" container mx-auto">
+        <div className="BOTTOM-DETAILS-PART bg-[#F9F3F0] py-[100px] px-[120px]">
+          <div className="container mx-auto">
             <div className="flex ">
               <div className="relative group mr-8">
                 <ul className=" text-2xl font-semibold">
@@ -242,7 +242,7 @@ export const Productvariation3 = () => {
               </div>
             </div>
 
-            <div className="Description grid grid-cols-2 gap-10 mt-12">
+            <div className="DESCRIPTION grid grid-cols-2 gap-10 mt-12">
               <div>
                 <div>
                   <h1 className="font-bold text-xl text-[#292930] mb-7">
@@ -309,7 +309,7 @@ export const Productvariation3 = () => {
               </div>
             </div>
 
-            <div className="Additional-Information mt-12 hidden px-[120px]">
+            <div className="ADDITIONAL-INFORMATION mt-12 hidden px-[120px]">
               <div className="bg-white rounded-md p-12">
                 <div className="py-5 flex bg-[#F6F7FB] text-[#292930] ">
                   <h1 className="w-[500px]  font-semibold px-8">Stand Up</h1>
@@ -383,7 +383,7 @@ export const Productvariation3 = () => {
               </div>
             </div>
 
-            <div className="Reviews mt-[70px] hidden px-[120px]">
+            <div className="REVIWS mt-[70px] hidden px-[120px]">
               <div className="Form grid grid-cols-2 gap-20">
                 <div className="pr-14">
                   <div className="mb-7">
