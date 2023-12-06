@@ -3,10 +3,10 @@ import bgimg from '../assets/About/asset 34.png'
 
 export const Bgimg = () => {
   return (
-    <div>
-      <div className="offer relative flex justify-center items-center">
+    <div className="BG-IMAGE">
+      <div className="offer relative flex justify-center items-center -z-10 ">
         <img
-          className="h-16 object-cover"
+          className="h-16 object-cover w-full"
           src={bgimg}
           alt=""
         />

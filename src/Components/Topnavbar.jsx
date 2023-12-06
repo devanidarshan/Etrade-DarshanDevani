@@ -2,9 +2,9 @@ import React from "react";
 
 export const Topnavbar = () => {
   return (
-    <div className="Top-Navbar-section ">
-      <div className="Main-Topnavbar-section p-1 flex justify-around bg-[#292930]">
-        <div className="Dropdown flex mr-[40%]">
+    <div className="TOP-NAVBAR-SECTION bg-[#292930]">
+      <div className="Main-Topnavbar-section p-1 flex justify-around bg-[#292930] mx-auto container">
+        <div className="DROPDOWN flex mr-[40%]">
           <div className="group">
             <button className="btn-relative text-gray-300 text-sm" type="button">
               English<i class="fa-solid fa-angle-down pl-1"></i>
@@ -40,7 +40,7 @@ export const Topnavbar = () => {
           </div>
         </div>
 
-        <div className="Right-section">
+        <div className="RIGHT-SECTION">
           <div className=" list-none flex text-sm ">
             <li className=" cursor-pointer hover:text-blue-600 duration-500 ml-6 text-gray-300">
               Help

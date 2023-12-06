@@ -3,13 +3,13 @@ import logo from '../assets/Homepage/asset 0.png'
 
 export const Navbar = () => {
   return (
-    <div>
-       <div className="bg-white h-20 px-10 rounded-md py-5 flex align-middle justify-around">
-          <div className="Logo">
+    <div className='NAVBAR-SECTION bg-[#f8f8f8]'>
+       <div className="bg-[#f8f8f8] h-20 px-10 rounded-md py-5 flex align-middle justify-around mx-auto container">
+          <div className="LOGO">
            <a href='#'><img className="" src={logo}></img></a>
           </div>
 
-          <div className="NavBar flex ">
+          <div className="NAVBAR flex ">
             <div className="group flex">
               <button
                 className=" relative font-bold mx-7 hover:border-b-[3px]  border-black "
@@ -177,11 +177,11 @@ export const Navbar = () => {
  
           {/* Search-section */}
 
-          <div className=''>
+          <div className='SEARCH-SECTION'>
             <ul className='border p-2 rounded-lg'>
                 <li className=''>
                   <a href='#'><i class="fa-solid fa-magnifying-glass mr-3 text-gray-600"></i></a> 
-                    <input className='focus:outline-none' type='search' placeholder='What are you looking for?'></input>
+                    <input className='focus:outline-none bg-transparent' type='search' placeholder='What are you looking for?'></input>
                     <button className='' type='submit'>
                     </button>
                 </li>
@@ -190,7 +190,7 @@ export const Navbar = () => {
           
           {/* icon-section */}
 
-          <div className="Icon-section">
+          <div className="ICON-SECTION">
             <ul className="flex mt-2 cursor-pointer">
               <li className="">
                 <i class="fa-solid fa-heart mr-6"></i>
