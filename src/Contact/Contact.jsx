@@ -17,8 +17,8 @@ export const Contact = () => {
         <Navbar/>
       </div>
 
-        <section className="Contact-section mx-auto container">
-        <div className="first-part flex bg-[#f8f8f8] justify-between p-12">
+        <section className="CONTACT-SECTION mx-auto container">
+        <div className="FIRST-PART flex bg-[#f8f8f8] justify-between p-12">
           <div className="mx-20">
             <p className="text-gray-400 font-semibold">
               Home | <span className="text-blue-500">Contact</span>
@@ -32,7 +32,7 @@ export const Contact = () => {
           </div>
         </div>
 
-          <div className="Form-section flex my-[80px] ml-32">
+          <div className="FORM-PART flex my-[80px] ml-32">
             <div>
               <h1 className="text-3xl font-semibold text-[#292930]">
                 We would love to hear from you.
